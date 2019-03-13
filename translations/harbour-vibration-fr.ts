@@ -5,45 +5,45 @@
     <name>CoverPage</name>
     <message>
         <source> </source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>  </source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>VibrationTest</source>
-        <translation type="unfinished"></translation>
+        <translation>VibrationTest</translation>
     </message>
 </context>
 <context>
     <name>FirstPage</name>
     <message>
         <source>About ...</source>
-        <translation type="unfinished"></translation>
+        <translation>À propos…</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Aide</translation>
     </message>
     <message>
         <source>Extended effects</source>
-        <translation type="unfinished"></translation>
+        <translation>Effets étendus</translation>
     </message>
     <message>
         <source>Reset settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Rétablir les paramètres</translation>
     </message>
 </context>
 <context>
     <name>FullPage</name>
     <message>
         <source>Reset settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Rétablir les paramètres</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Aide</translation>
     </message>
 </context>
 </TS>
