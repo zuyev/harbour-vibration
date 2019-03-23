@@ -13,37 +13,37 @@
     </message>
     <message>
         <source>VibrationTest</source>
-        <translation type="unfinished"></translation>
+        <translation>振动测试</translation>
     </message>
 </context>
 <context>
     <name>FirstPage</name>
     <message>
         <source>About ...</source>
-        <translation type="unfinished"></translation>
+        <translation>关于</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>帮助</translation>
     </message>
     <message>
         <source>Extended effects</source>
-        <translation type="unfinished"></translation>
+        <translation>扩大效果</translation>
     </message>
     <message>
         <source>Reset settings</source>
-        <translation type="unfinished"></translation>
+        <translation>重置设置</translation>
     </message>
 </context>
 <context>
     <name>FullPage</name>
     <message>
         <source>Reset settings</source>
-        <translation type="unfinished"></translation>
+        <translation>重置设置</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>帮助</translation>
     </message>
 </context>
 </TS>
