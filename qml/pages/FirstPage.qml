@@ -146,7 +146,7 @@ Page {
 
             Label {
                 x: Theme.horizontalPageMargin
-                text: qsTr("Effect duration:  ") + durationSlider.value
+                text: qsTr("Effect duration:") + "  " + durationSlider.value
             }
 
             ButtonLayout {
@@ -181,18 +181,6 @@ Page {
                 label: qsTr("Effect duration")
             }
 
-//            Label {
-//                  text: ""
-//                  font.pixelSize: Theme.fontSizeMedium /4
-//                  x: Theme.horizontalPageMargin
-//                  wrapMode: Text.Wrap
-//                  width: parent.width - Theme.horizontalPageMargin *2
-//              }
-
-//            Label {
-//                x: Theme.horizontalPageMargin
-//                text: qsTr("Effect intensity:")
-//            }
             Slider {
                 id: intensitySlider
                 width: page.width
@@ -203,14 +191,6 @@ Page {
                 maximumValue: 1.0
                 label: qsTr("Effect intensity")
             }
-
-//            Label {
-//                text: ""
-//                font.pixelSize: Theme.fontSizeMedium /4
-//                x: Theme.horizontalPageMargin
-//                wrapMode: Text.Wrap
-//                width: parent.width - Theme.horizontalPageMargin *2
-//            }
 
             TextSwitch {
                 id: repeatTextSwitch
@@ -224,7 +204,7 @@ Page {
 
             Label {
                 x: Theme.horizontalPageMargin
-                text: qsTr("Delay: ") + repeatSlider.value
+                text: qsTr("Delay:") + "  " + repeatSlider.value
             }
 
             ButtonLayout {

@@ -128,7 +128,7 @@ Page {
                 qsTr("version 1.2.1 - errors fixed;"),
                 qsTr("version 1.2.2 - minor changes;"),
                 qsTr("version 1.3 - French translations added (Thanks to Quenty31);"),
-                qsTr("version 1.4 - Simplified Chinese translations added."),
+                qsTr("version 1.4 - Simplified Chinese translations added (Thanks to dashinfantry)."),
                ]
                 Label {
                     text: modelData

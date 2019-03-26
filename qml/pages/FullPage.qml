@@ -152,7 +152,7 @@ Page {
 
             Label {
                 x: Theme.horizontalPageMargin
-                text: qsTr("Effect duration:  ") + durationSlider.value
+                text: qsTr("Effect duration:") + "  " + durationSlider.value
             }
 
 
@@ -209,7 +209,7 @@ Page {
 
             Label {
                 x: Theme.horizontalPageMargin
-                text: qsTr("Effect attackTime:  ") + attackTimeSlider.value
+                text: qsTr("Effect attackTime:") + "  " + attackTimeSlider.value
             }
 
             ButtonLayout {
@@ -263,7 +263,7 @@ Page {
 
             Label {
                 x: Theme.horizontalPageMargin
-                text: qsTr("Effect fadeTime:  ") + fadeTimeSlider.value
+                text: qsTr("Effect fadeTime:") + "  " + fadeTimeSlider.value
             }
             ButtonLayout {
                 Button {
@@ -317,7 +317,7 @@ Page {
 
             Label {
                 x: Theme.horizontalPageMargin
-                text: qsTr("Effect period:  ") + periodSlider.value
+                text: qsTr("Effect period:") + "  " + periodSlider.value
             }
             ButtonLayout {
                 Button {
@@ -370,7 +370,7 @@ Page {
 
           Label {
               x: Theme.horizontalPageMargin
-              text: qsTr("Delay: ") + repeatSlider.value
+              text: qsTr("Delay:") + "  " + repeatSlider.value
           }
 
           ButtonLayout {
