@@ -29,7 +29,7 @@ DISTFILES += qml/harbour-vibration.qml \
     qml/pages/FullPage.qml \
     qml/pages/Help.qml \
     qml/pages/Help_Theme_effects.qml \
-    qml/pages/Help_Custom_effects.qml \
+    qml/pages/Help_Custom_effects.qml
 
 SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172
 
@@ -45,4 +45,4 @@ TRANSLATIONS += \
     translations/harbour-vibration-de.ts \
     translations/harbour-vibration-ru.ts \
     translations/harbour-vibration-fr.ts \
-
+    translations/harbour-vibration-zh_cn.ts \

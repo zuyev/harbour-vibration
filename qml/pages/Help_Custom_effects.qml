@@ -51,14 +51,14 @@ Page {
         spacing: Theme.paddingLarge
 
         PageHeader {
-            title: qsTr("Help Custom effects")
+            title: "Help Custom effects"
             x: Theme.horizontalPageMargin
             width: parent.width - Theme.horizontalPageMargin
             wrapMode: Text.Wrap
         }
 
         Label {
-            text: qsTr("Effect duration")
+            text: "Effect duration"
             font.pixelSize: Theme.fontSizeMedium
             color: Theme.highlightColor
             x: Theme.horizontalPageMargin
@@ -68,9 +68,9 @@ Page {
 
         Repeater {
         model: [
-            qsTr("This property holds the expected duration of the effect."),
-            qsTr("This property defines the total duration of the feedback effect, in milliseconds. It includes the duration of any fade-in or fade-out parts, if any, in non-periodic effects, and includes all repetitions of the period in periodic-effects, if any."),
-            qsTr("If the duration is set to a value less than ") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("attackTime") + "</font> + <font color=\"" + Theme.highlightColor + "\">" + qsTr("fadeTime") + "</font>, or less than the <font color=\"" + Theme.highlightColor + "\">" + qsTr("period") + "</font>" + qsTr(" of the effect, the waveform which will result is backend-specific."),
+            "This property holds the expected duration of the effect.",
+            "This property defines the total duration of the feedback effect, in milliseconds. It includes the duration of any fade-in or fade-out parts, if any, in non-periodic effects, and includes all repetitions of the period in periodic-effects, if any.",
+            "If the duration is set to a value less than <b>attackTime + fadeTime</b>, or less than the <b>period</b> of the effect, the waveform which will result is backend-specific.",
         ]
         Label {
             text: modelData
@@ -91,7 +91,7 @@ Page {
         }
 
         Label {
-            text: qsTr("Effect intensity")
+            text: "Effect intensity"
             font.pixelSize: Theme.fontSizeMedium
             color: Theme.highlightColor
             x: Theme.horizontalPageMargin
@@ -101,9 +101,9 @@ Page {
 
         Repeater {
         model: [
-            qsTr("This property holds the intensity of the effect."),
-            qsTr("This property defines the intensity of the feedback effect. The value can be between 0 and 1."),
-            qsTr("For non-periodic effects, the effect will be at this intensity for (") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("duration") + "</font> - (<font color=\"" + Theme.highlightColor + "\">" + qsTr("attackTime") + "</font> + <font color=\"" + Theme.highlightColor + "\">" + qsTr("fadeTime") + "</font>))" + qsTr(" milliseconds. For periodic effects, the effect will be at this intensity once per period for (") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("period") + "</font> - (<font color=\"" + Theme.highlightColor + "\">" + qsTr("attackTime") + "</font> + <font color=\"" + Theme.highlightColor + "\">" + qsTr("fadeTime") + "</font>" + qsTr(")) milliseconds."),
+            "This property holds the intensity of the effect.",
+            "This property defines the intensity of the feedback effect. The value can be between 0 and 1.",
+            "For non-periodic effects, the effect will be at this intensity for <b>(duration - (attackTime + fadeTime))</b> milliseconds. For periodic effects, the effect will be at this intensity once per period for <b>(period - (attackTime + fadeTime))</b> milliseconds.",
         ]
         Label {
             text: modelData
@@ -125,7 +125,7 @@ Page {
 
 
         Label {
-            text: qsTr("Effect attackTime")
+            text: "Effect attackTime"
             font.pixelSize: Theme.fontSizeMedium
             color: Theme.highlightColor
             x: Theme.horizontalPageMargin
@@ -135,9 +135,9 @@ Page {
 
         Repeater {
         model: [
-            qsTr("This property holds the duration of the fade-in effect."),
-            qsTr("This property defines the duration of the fade-in effect in milliseconds. The effect will ramp up (or down) from ") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("attackIntensity") + "</font> " + qsTr("to ") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("intensity") + "</font> " + qsTr("in ") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("attackTime") + "</font> " + qsTr("milliseconds."),
-            qsTr("If the attack time is set to a value such that ") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("attackTime<") + "/font> + <font color=\"" + Theme.highlightColor + "\">" + qsTr("fadeTime") + "</font>" + qsTr(" is greater than ") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("duration") + "</font>" + qsTr(" for non-periodic effects, or greater than ") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("period") + "</font> " + qsTr("for periodic effects, the waveform which will result is backend-specific."),
+            "This property holds the duration of the fade-in effect.",
+            "This property defines the duration of the fade-in effect in milliseconds. The effect will ramp up (or down) from <b>attackIntensity</b> to <b>intensity</b> in <b>attackTime</b> milliseconds.",
+            "If the attack time is set to a value such that <b>attackTime + fadeTime</b> is greater than <b>duration</b> for non-periodic effects, or greater than <b>period</b> for periodic effects, the waveform which will result is backend-specific.",
         ]
         Label {
             text: modelData
@@ -158,7 +158,7 @@ Page {
         }
 
         Label {
-            text: qsTr("Effect attackIntensity")
+            text: "Effect attackIntensity"
             font.pixelSize: Theme.fontSizeMedium
             color: Theme.highlightColor
             x: Theme.horizontalPageMargin
@@ -168,8 +168,8 @@ Page {
 
         Repeater {
         model: [
-            qsTr("This property holds the initial intensity of the effect."),
-            qsTr("This property defines the initial intensity of the effect, before it fades in. It is usually lower than intensity. The effect will ramp up (or down) from ") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("attackIntensity") + "</font>" + qsTr(" to ") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("intensity") + "</font>" + qsTr(" in ") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("attackTime") + "</font>" + qsTr(" milliseconds."),
+            "This property holds the initial intensity of the effect.",
+            "This property defines the initial intensity of the effect, before it fades in. It is usually lower than intensity. The effect will ramp up (or down) from <b>attackIntensity</b> to <b>intensity</b> in <b>attackTime</b> milliseconds.",
         ]
         Label {
             text: modelData
@@ -190,7 +190,7 @@ Page {
         }
 
         Label {
-            text: qsTr("Effect fadeTime")
+            text: "Effect fadeTime"
             font.pixelSize: Theme.fontSizeMedium
             color: Theme.highlightColor
             x: Theme.horizontalPageMargin
@@ -200,9 +200,9 @@ Page {
 
         Repeater {
         model: [
-            qsTr("This property holds the duration of the fade-out effect."),
-            qsTr("This property defines the duration of the fade-out effect in milliseconds. The effect will ramp down (or up) from ") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("intensity") + "</font>" + qsTr(" to ") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("fadeIntensity") + "</font>" + qsTr(" in ") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("fadeTime") + "</font>" + qsTr(" milliseconds."),
-            qsTr("If the fade time is set to a value such that ") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("attackTime") + "</font> + <font color=\"" + Theme.highlightColor + "\">" + qsTr("fadeTime") + "</font>" + qsTr(" is greater than ") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("duration") + "</font>" + qsTr(" for non-periodic effects, or greater than ") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("period") + "</font>" + qsTr(" for periodic effects, the waveform which will result is backend-specific."),
+            "This property holds the duration of the fade-out effect.",
+            "This property defines the duration of the fade-out effect in milliseconds. The effect will ramp down (or up) from <b>intensity</b> to <b>fadeIntensity</b> in <b>fadeTime</b> milliseconds.",
+            "If the fade time is set to a value such that <b>attackTime + fadeTime</b> is greater than <b>duration</b> for non-periodic effects, or greater than <b>period</b> for periodic effects, the waveform which will result is backend-specific.",
         ]
         Label {
             text: modelData
@@ -223,7 +223,7 @@ Page {
         }
 
         Label {
-            text: qsTr("Effect fadeIntensity")
+            text: "Effect fadeIntensity"
             font.pixelSize: Theme.fontSizeMedium
             color: Theme.highlightColor
             x: Theme.horizontalPageMargin
@@ -233,8 +233,8 @@ Page {
 
         Repeater {
         model: [
-            qsTr("This property holds the final intensity of the effect."),
-            qsTr("This property defines the final intensity of the effect, after it fades out. It is usually lower than intensity. The effect will ramp down (or up) from ") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("intensity") + "</font>" + qsTr(" to ") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("fadeIntensity") + "</font>" + qsTr(" in ") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("fadeTime") + "</font>" + qsTr(" milliseconds."),
+            "This property holds the final intensity of the effect.",
+            "This property defines the final intensity of the effect, after it fades out. It is usually lower than intensity. The effect will ramp down (or up) from <b>intensity</b> to <b>fadeIntensity</b> in <b>fadeTime</b> milliseconds.",
         ]
         Label {
             text: modelData
@@ -255,7 +255,7 @@ Page {
         }
 
         Label {
-            text: qsTr("Effect period")
+            text: "Effect period"
             font.pixelSize: Theme.fontSizeMedium
             color: Theme.highlightColor
             x: Theme.horizontalPageMargin
@@ -265,10 +265,10 @@ Page {
 
         Repeater {
         model: [
-            qsTr("This property holds set the period for the effect."),
-            qsTr("It has a default value of -1, which means that it is not a periodic effect. You can only change the period when the effect is stopped. The duration of the effect should be set to a value larger than the period of the effect if you wish the periodicity to be discernable. Note: Not all actuators support periodic effects."),
-            qsTr("The period defines the total length of the periodic envelope, which will be repeated up until ") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("duration") + "</font>" + qsTr(" milliseconds has elapsed. For a periodic effect, the intensity will start at ") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("attackIntensity") + "</font>" + qsTr(", ramp to ") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("intensity") + "</font>" + qsTr(" (where it stays for (") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("period") + "</font> - (<font color=\"" + Theme.highlightColor + "\">" + qsTr("attackTime") + "</font> + <font color=\"" + Theme.highlightColor + "\">" + qsTr("fadeTime") + "</font>" + qsTr(")) milliseconds), then ramp to ") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("fadeIntensity") + "</font>" + qsTr(". This waveform will be repeated as many times as required until the ") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("duration") + "</font>" + qsTr(" has elapsed."),
-            qsTr("If the period is set to a value which is less than ") + "<font color=\"" + Theme.highlightColor + "\">" + qsTr("attackTime") + "</font> + <font color=\"" + Theme.highlightColor + "\">" + qsTr("fadeTime") + "</font>" + qsTr(", the waveform which will result is backend-specific."),
+            "This property holds set the period for the effect.",
+            "It has a default value of -1, which means that it is not a periodic effect. You can only change the period when the effect is stopped. The duration of the effect should be set to a value larger than the period of the effect if you wish the periodicity to be discernable. Note: Not all actuators support periodic effects.",
+            "The period defines the total length of the periodic envelope, which will be repeated up until <b>duration</b> milliseconds has elapsed. For a periodic effect, the intensity will start at <b>attackIntensity</font>, ramp to <b>intensity</b> (where it stays for <b>(period - (attackTime + fadeTime))</b> milliseconds), then ramp to <b>fadeIntensity</b>. This waveform will be repeated as many times as required until the <b>duration</b> has elapsed.",
+            "If the period is set to a value which is less than <b>attackTime + fadeTime</b>, the waveform which will result is backend-specific.",
         ]
         Label {
             text: modelData

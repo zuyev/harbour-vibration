@@ -127,7 +127,8 @@ Page {
                 qsTr("version 1.2 - \"Repeat\" added;"),
                 qsTr("version 1.2.1 - errors fixed;"),
                 qsTr("version 1.2.2 - minor changes;"),
-                qsTr("version 1.3 - French translations added. Thanks to ______ (Quenty31)"),
+                qsTr("version 1.3 - French translations added (Thanks to Quenty31);"),
+                qsTr("version 1.4 - Simplified Chinese translations added."),
                ]
                 Label {
                     text: modelData
@@ -139,15 +140,6 @@ Page {
 //                    anchors.horizontalCenter: parent.horizontalCenter
                   }
                 }
-
-//        Label {
-//            text: ""
-//            font.pixelSize: Theme.fontSizeMedium /4
-//            x: Theme.horizontalPageMargin
-//            wrapMode: Text.Wrap
-//            width: parent.width - Theme.horizontalPageMargin *2
-//        }
-
 
     Label {
         text: ""
