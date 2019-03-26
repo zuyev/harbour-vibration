@@ -30,8 +30,6 @@ DISTFILES += qml/harbour-vibration.qml \
     qml/pages/Help.qml \
     qml/pages/Help_Theme_effects.qml \
     qml/pages/Help_Custom_effects.qml \
-    translations/harbour-vibration-fr.ts \
-    translations/harbour-vibration-ru.ts
 
 SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172
 
@@ -43,7 +41,8 @@ CONFIG += sailfishapp_i18n
 # planning to localize your app, remember to comment out the
 # following TRANSLATIONS line. And also do not forget to
 # modify the localized app name in the the .desktop file.
-TRANSLATIONS += translations/harbour-vibration-de.ts
-TRANSLATIONS += translations/harbour-vibration-ru.ts
-TRANSLATIONS += translations/harbour-vibration-fr.ts
+TRANSLATIONS += \
+    translations/harbour-vibration-de.ts \
+    translations/harbour-vibration-ru.ts \
+    translations/harbour-vibration-fr.ts \
 
