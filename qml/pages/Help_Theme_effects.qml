@@ -51,14 +51,14 @@ Page {
         spacing: Theme.paddingLarge
 
         PageHeader {
-            title: "Help Theme effects"
+            title: qsTr("Help Theme effects")
             x: Theme.horizontalPageMargin
             width: parent.width - Theme.horizontalPageMargin
             wrapMode: Text.Wrap
         }
 
         Label {
-            text: "Button, KeyPad, Long"
+            text: qsTr("Button, KeyPad, Long")
             font.pixelSize: Theme.fontSizeMedium
             color: Theme.highlightColor
             x: Theme.horizontalPageMargin
@@ -68,7 +68,7 @@ Page {
 
         Repeater {
         model: [
-            "Effects determined by the current Theme (system settings).",
+            qsTr("Effects determined by the current Theme (system settings)."),
         ]
         Label {
             text: modelData
@@ -89,7 +89,7 @@ Page {
         }
 
         Label {
-            text: "Periodic"
+            text: qsTr("Periodic")
             font.pixelSize: Theme.fontSizeMedium
             color: Theme.highlightColor
             x: Theme.horizontalPageMargin
@@ -99,14 +99,14 @@ Page {
 
         Repeater {
         model: [
-            "Effects values used",
-            "intensity: 0.9",
-            "duration: 2000",
-            "attackTime: 500",
-            "fadeTime: 1000",
-            "attackIntensity: 0.5",
-            "fadeIntensity: 0.1",
-            "period: 20",
+            qsTr("Effects values used"),
+            qsTr("intensity: 0.9"),
+            qsTr("duration: 2000"),
+            qsTr("attackTime: 500"),
+            qsTr("fadeTime: 1000"),
+            qsTr("attackIntensity: 0.5"),
+            qsTr("fadeIntensity: 0.1"),
+            qsTr("period: 20"),
         ]
         Label {
             text: modelData

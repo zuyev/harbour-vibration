@@ -9,6 +9,7 @@ Name=VibrationTest
 #
 # Remember to comment out the following line, if you do not want to use
 # a different app name in German locale (de).
-Name[de]=harbour-vibration
-Name[ru]=harbour-vibration
-Name[fr]=harbour-vibration
+Name[de]=VibrationTest
+Name[ru]=VibrationTest
+Name[fr]=VibrationTest
+Name[zh_cn]=VibrationTest
