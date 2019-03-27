@@ -51,14 +51,14 @@ Page {
         spacing: Theme.paddingLarge
 
         PageHeader {
-            title: "Help"
+            title: qsTr("Help")
             x: Theme.horizontalPageMargin
             width: parent.width - Theme.horizontalPageMargin
             wrapMode: Text.Wrap
         }
 
         Label {
-            text: "<font color=\"" + Theme.highlightColor + "\"><a href=\"Help_Theme_effects.qml\"\">Theme effect"
+            text: "<font color=\"" + Theme.highlightColor + "\"><a href=\"Help_Theme_effects.qml\"\">" + qsTr("Theme effect")
             onLinkActivated: {window.pageStack.push(Qt.resolvedUrl(link));}
             font.pixelSize: Theme.fontSizeMedium
             color: Theme.highlightColor
@@ -68,7 +68,7 @@ Page {
         }
 
         Label {
-            text: "<font color=\"" + Theme.highlightColor + "\"><a href=\"Help_Custom_effects.qml\"\">Custom effect"
+            text: "<font color=\"" + Theme.highlightColor + "\"><a href=\"Help_Custom_effects.qml\"\">" + qsTr("Custom effect")
             onLinkActivated: {window.pageStack.push(Qt.resolvedUrl(link));}
             font.pixelSize: Theme.fontSizeMedium
             color: Theme.highlightColor

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ru_RU" sourcelanguage="en">
+<TS version="2.1">
 <context>
     <name>CoverPage</name>
     <message>
@@ -13,26 +13,30 @@
     </message>
     <message>
         <source>VibrationTest</source>
-        <translation type="unfinished"></translation>
+        <translation>振动测试</translation>
     </message>
 </context>
 <context>
     <name>FirstPage</name>
     <message>
         <source>About ...</source>
-        <translation>О программе</translation>
+        <translation>关于</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Помощь</translation>
+        <translation>帮助</translation>
     </message>
     <message>
         <source>Extended effects</source>
-        <translation>Расширенные эффекты</translation>
+        <translation>扩大效果</translation>
     </message>
     <message>
         <source>Reset settings</source>
-        <translation>Сбросить настройки</translation>
+        <translation>重置设置</translation>
+    </message>
+    <message>
+        <source>VibrationTest</source>
+        <translation type="unfinished">振动测试</translation>
     </message>
     <message>
         <source>Theme effects</source>
@@ -59,6 +63,10 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Effect duration:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Effect duration</source>
         <translation type="unfinished"></translation>
     </message>
@@ -68,6 +76,10 @@
     </message>
     <message>
         <source>Repeat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Delay:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -90,32 +102,20 @@
         <source>Menu</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <source>VibrationTest</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Effect duration:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Delay:</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>FullPage</name>
     <message>
         <source>Reset settings</source>
-        <translation>Сбросить настройки</translation>
+        <translation>重置设置</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Помощь</translation>
+        <translation>帮助</translation>
     </message>
     <message>
         <source>Extended effects</source>
-        <translation type="unfinished">Расширенные эффекты</translation>
+        <translation type="unfinished">扩大效果</translation>
     </message>
     <message>
         <source>Theme effects</source>
@@ -142,11 +142,19 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Effect duration:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Effect duration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Effect intensity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Effect attackTime:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -158,11 +166,19 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Effect fadeTime:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Effect fadeTime</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Effect fadeIntensity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Effect period:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -174,7 +190,15 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Delay:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Delay</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>onPressed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -183,14 +207,6 @@
     </message>
     <message>
         <source>Custom Stop</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Menu</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>onPressed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -206,23 +222,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Effect duration:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Effect attackTime:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Effect fadeTime:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Effect period:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Delay:</source>
+        <source>Menu</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -230,7 +230,7 @@
     <name>Help</name>
     <message>
         <source>Help</source>
-        <translation type="unfinished">Помощь</translation>
+        <translation type="unfinished">帮助</translation>
     </message>
     <message>
         <source>Theme effect</source>
@@ -415,7 +415,7 @@
     </message>
     <message>
         <source>VibrationTest</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">振动测试</translation>
     </message>
     <message>
         <source>Version 1.3</source>

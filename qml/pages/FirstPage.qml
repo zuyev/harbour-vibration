@@ -102,32 +102,32 @@ Page {
             spacing: Theme.paddingSmall
 
             PageHeader {
-                title: "VibrationTest"
+                title: qsTr("VibrationTest")
             }
 
             SectionHeader {
-                text: "Theme effects"
+                text: qsTr("Theme effects")
             }
 
             ButtonLayout {
                 Button {
-                    text: "Button"
+                    text: qsTr("Button")
                     onPressed: buttonBuzz.play()
                 }
 
                 Button {
-                    text: "Long"
+                    text: qsTr("Long")
                     onPressed: longBuzz.play()
                 }
             }
 
             ButtonLayout {
                 Button {
-                    text: "Keypad"
+                    text: qsTr("Keypad")
                     onPressed: keypadBuzz.play()
                 }
                 Button {
-                    text: "Periodic"
+                    text: qsTr("Periodic")
                     onPressed: periodicBuzz.start()
                 }
             }
@@ -141,12 +141,12 @@ Page {
             }
 
             SectionHeader {
-                text: "Custom effects"
+                text: qsTr("Custom effects")
             }
 
             Label {
                 x: Theme.horizontalPageMargin
-                text: "Effect duration:  " + durationSlider.value
+                text: qsTr("Effect duration:") + "  " + durationSlider.value
             }
 
             ButtonLayout {
@@ -178,21 +178,9 @@ Page {
                 valueText: value
                 minimumValue: 1
                 maximumValue: 2000
-                label: "Effect duration"
+                label: qsTr("Effect duration")
             }
 
-//            Label {
-//                  text: ""
-//                  font.pixelSize: Theme.fontSizeMedium /4
-//                  x: Theme.horizontalPageMargin
-//                  wrapMode: Text.Wrap
-//                  width: parent.width - Theme.horizontalPageMargin *2
-//              }
-
-//            Label {
-//                x: Theme.horizontalPageMargin
-//                text: "Effect intensity:"
-//            }
             Slider {
                 id: intensitySlider
                 width: page.width
@@ -201,20 +189,12 @@ Page {
                 valueText: value
                 minimumValue: 0.0
                 maximumValue: 1.0
-                label: "Effect intensity"
+                label: qsTr("Effect intensity")
             }
-
-//            Label {
-//                text: ""
-//                font.pixelSize: Theme.fontSizeMedium /4
-//                x: Theme.horizontalPageMargin
-//                wrapMode: Text.Wrap
-//                width: parent.width - Theme.horizontalPageMargin *2
-//            }
 
             TextSwitch {
                 id: repeatTextSwitch
-                text: "Repeat"
+                text: qsTr("Repeat")
                 checked: repeat
                 onClicked: {
                     if (repeat === false) {repeat = true; repeat_value = repeatSlider.value}
@@ -224,12 +204,11 @@ Page {
 
             Label {
                 x: Theme.horizontalPageMargin
-                text: "Delay: " + repeatSlider.value
+                text: qsTr("Delay:") + "  " + repeatSlider.value
             }
 
             ButtonLayout {
                 Button {
-//                    enabled: repeat
                     text: "-"
                     onClicked: {
                          if (repeatSlider.value > 1)
@@ -239,7 +218,6 @@ Page {
                      }
                  }
                 Button {
-//                    enabled: repeat
                     text: "+"
                     onClicked: {
                         if (repeatSlider.value < 2000)
@@ -252,15 +230,13 @@ Page {
 
             Slider {
                 id: repeatSlider
-//                enabled: repeat
-//                handleVisible: repeat
                 width: page.width
                 value: repeat_value
                 stepSize: 1
                 valueText: {value; if (repeat === true) if (press === true) repeat_value_start = repeatSlider.value}
                 minimumValue: 1
                 maximumValue: 2000
-                label: "Delay"
+                label: qsTr("Delay")
             }
 
           Label {
@@ -272,8 +248,7 @@ Page {
             }
 
             Button {
-                text: if (repeat === false) "Custom"; else if (press === false) "Custom Start"; else "Custom Stop"
-//                enabled: !repeat
+                text: if (repeat === false) qsTr("Custom"); else if (press === false) qsTr("Custom Start"); else qsTr("Custom Stop")
                 anchors.horizontalCenter: parent.horizontalCenter
                 onPressed: if (repeat === true) {repeat_value_start = repeatSlider.value;
                            press = !press;
@@ -322,7 +297,7 @@ Page {
             }
 
             MenuLabel {
-                text: "Menu"
+                text: qsTr("Menu")
             }
   }
 }
