@@ -4,14 +4,6 @@
 <context>
     <name>CoverPage</name>
     <message>
-        <source> </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>  </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>VibrationTest</source>
         <translation>振动测试</translation>
     </message>

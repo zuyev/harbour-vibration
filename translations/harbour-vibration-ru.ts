@@ -4,14 +4,6 @@
 <context>
     <name>CoverPage</name>
     <message>
-        <source> </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>  </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>VibrationTest</source>
         <translation>Тест вибромотора</translation>
     </message>
@@ -435,7 +427,7 @@
     </message>
     <message>
         <source>version 1.1 - the help added; errors fixed;</source>
-        <translation>версия 1.1 - страница Помощь добавлена; исправлены ошибки</translation>
+        <translation>версия 1.1 - добавлена страница Помощь; исправлены ошибки</translation>
     </message>
     <message>
         <source>version 1.1.1 - the help changed; minor changes;</source>
@@ -443,7 +435,7 @@
     </message>
     <message>
         <source>version 1.2 - &quot;Repeat&quot; added;</source>
-        <translation>версия 1.2 - параметр &quot;Повтор&quot; добавлен;</translation>
+        <translation>версия 1.2 - добавлен параметр &quot;Повтор&quot;;</translation>
     </message>
     <message>
         <source>version 1.2.1 - errors fixed;</source>

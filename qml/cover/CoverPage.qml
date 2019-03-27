@@ -42,13 +42,13 @@ CoverBackground {
 
             Label {
                 anchors.horizontalCenter: parent.horizontalCenter
-        text: qsTr(" ")
+        text: " "
     }
             Label {
                 anchors.horizontalCenter: parent.horizontalCenter
 
   //      anchors.centerIn: parent
-        text: qsTr("  ")
+        text: " "
     }
 
 
@@ -59,12 +59,12 @@ CoverBackground {
 
         Label {
             anchors.horizontalCenter: parent.horizontalCenter
-    text: qsTr(" ")
+    text: " "
 }
 
         Label {
             anchors.horizontalCenter: parent.horizontalCenter
-    text: qsTr(" ")
+    text: " "
 }
 
 
