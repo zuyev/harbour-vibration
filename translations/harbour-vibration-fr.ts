@@ -454,11 +454,15 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>version 1.3 - French translations added (Thanks to Quenty31);</source>
+        <source>version 1.3 - Russian translations added;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>version 1.4 - Simplified Chinese translations added (Thanks to dashinfantry).</source>
+        <source>version 1.4 - French translations added (Thanks to Quenty31);</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>version 1.5 - Simplified Chinese translations added (Thanks to dashinfantry).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
