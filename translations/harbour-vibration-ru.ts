@@ -5,7 +5,7 @@
     <name>CoverPage</name>
     <message>
         <source>VibrationTest</source>
-        <translation>Тест вибромотора</translation>
+        <translation type="unfinished">Тест вибромотора</translation>
     </message>
 </context>
 <context>
@@ -28,7 +28,7 @@
     </message>
     <message>
         <source>Theme effects</source>
-        <translation>Эффекты Темы (системные)</translation>
+        <translation>Виброэффекты Темы (системные)</translation>
     </message>
     <message>
         <source>Button</source>
@@ -68,15 +68,15 @@
     </message>
     <message>
         <source>Custom</source>
-        <translation type="unfinished"></translation>
+        <translation>Польз.</translation>
     </message>
     <message>
         <source>Custom Start</source>
-        <translation type="unfinished">Старт</translation>
+        <translation>Польз.Старт</translation>
     </message>
     <message>
         <source>Custom Stop</source>
-        <translation type="unfinished">Стоп</translation>
+        <translation>Польз.Стоп</translation>
     </message>
     <message>
         <source>Menu</source>
@@ -111,7 +111,7 @@
     </message>
     <message>
         <source>Theme effects</source>
-        <translation>Эффекты Темы (системные)</translation>
+        <translation>Виброэффекты Темы (системные)</translation>
     </message>
     <message>
         <source>Button</source>
@@ -171,11 +171,11 @@
     </message>
     <message>
         <source>Custom Start</source>
-        <translation>Старт</translation>
+        <translation>Польз.Старт</translation>
     </message>
     <message>
         <source>Custom Stop</source>
-        <translation>Стоп</translation>
+        <translation>Польз.Стоп</translation>
     </message>
     <message>
         <source>Menu</source>
@@ -245,11 +245,11 @@
     </message>
     <message>
         <source>This property holds the expected duration of the effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Это свойство задает продолжительность эффекта.</translation>
     </message>
     <message>
         <source>This property defines the total duration of the feedback effect, in milliseconds. It includes the duration of any fade-in or fade-out parts, if any, in non-periodic effects, and includes all repetitions of the period in periodic-effects, if any.</source>
-        <translation type="unfinished"></translation>
+        <translation>Это свойство определяет общую длительность эффекта обратной связи, в миллисекундах. Она включает в себя продолжительность постепенного усиления и (или) продолжительность затухания вибросигнала, если таковые имеются в непериодических эффектах, а также включает в себя повторения изменений вибросигнала в периодических эффектах, если таковые имеются.</translation>
     </message>
     <message>
         <source>If the duration is set to a value less than &lt;b&gt;attackTime + fadeTime&lt;/b&gt;, or less than the &lt;b&gt;period&lt;/b&gt; of the effect, the waveform which will result is backend-specific.</source>
@@ -261,11 +261,11 @@
     </message>
     <message>
         <source>This property holds the intensity of the effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Это свойство задает интенсивность вибросигнала.</translation>
     </message>
     <message>
         <source>This property defines the intensity of the feedback effect. The value can be between 0 and 1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Это свойство определяет интенсивность эффекта обратной связи. Значение может быть от 0 до 1.</translation>
     </message>
     <message>
         <source>For non-periodic effects, the effect will be at this intensity for &lt;b&gt;(duration - (attackTime + fadeTime))&lt;/b&gt; milliseconds. For periodic effects, the effect will be at this intensity once per period for &lt;b&gt;(period - (attackTime + fadeTime))&lt;/b&gt; milliseconds.</source>
@@ -277,7 +277,7 @@
     </message>
     <message>
         <source>This property holds the duration of the fade-in effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Это свойство определяет длительность усиления эффекта.</translation>
     </message>
     <message>
         <source>This property defines the duration of the fade-in effect in milliseconds. The effect will ramp up (or down) from &lt;b&gt;attackIntensity&lt;/b&gt; to &lt;b&gt;intensity&lt;/b&gt; in &lt;b&gt;attackTime&lt;/b&gt; milliseconds.</source>
@@ -293,7 +293,7 @@
     </message>
     <message>
         <source>This property holds the initial intensity of the effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Это свойство определяет начальную интенсивность эффекта.</translation>
     </message>
     <message>
         <source>This property defines the initial intensity of the effect, before it fades in. It is usually lower than intensity. The effect will ramp up (or down) from &lt;b&gt;attackIntensity&lt;/b&gt; to &lt;b&gt;intensity&lt;/b&gt; in &lt;b&gt;attackTime&lt;/b&gt; milliseconds.</source>
@@ -305,7 +305,7 @@
     </message>
     <message>
         <source>This property holds the duration of the fade-out effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Это свойство определяет длительность затухания эффекта.</translation>
     </message>
     <message>
         <source>This property defines the duration of the fade-out effect in milliseconds. The effect will ramp down (or up) from &lt;b&gt;intensity&lt;/b&gt; to &lt;b&gt;fadeIntensity&lt;/b&gt; in &lt;b&gt;fadeTime&lt;/b&gt; milliseconds.</source>
@@ -321,7 +321,7 @@
     </message>
     <message>
         <source>This property holds the final intensity of the effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Это свойство задает конечную интенсивность эффекта.</translation>
     </message>
     <message>
         <source>This property defines the final intensity of the effect, after it fades out. It is usually lower than intensity. The effect will ramp down (or up) from &lt;b&gt;intensity&lt;/b&gt; to &lt;b&gt;fadeIntensity&lt;/b&gt; in &lt;b&gt;fadeTime&lt;/b&gt; milliseconds.</source>
@@ -368,7 +368,7 @@
     </message>
     <message>
         <source>Effects values used</source>
-        <translation>Значения используемых эффектов</translation>
+        <translation>Использованы следующие значения</translation>
     </message>
     <message>
         <source>intensity: 0.9</source>
