@@ -38,12 +38,6 @@ Page {
     allowedOrientations: Orientation.All
 
 
-//    _allowedOrientations: mainWindow.orientation
-
-
-//    contentHeight: column.height
-
-
     SilicaFlickable {
         anchors.fill: parent
         contentWidth: parent.width
@@ -58,7 +52,7 @@ Page {
         spacing: Theme.paddingLarge
 
         PageHeader {
-            title: "About VibrationTest"
+            title: qsTr("About VibrationTest")
             x: Theme.horizontalPageMargin
             width: parent.width - Theme.horizontalPageMargin
             wrapMode: Text.Wrap
@@ -78,14 +72,14 @@ Page {
         }
 
             Label {
-                text: "VibrationTest"
+                text: qsTr("VibrationTest")
                 font.pixelSize: Theme.fontSizeMedium
                 wrapMode: Text.Wrap
                 anchors.horizontalCenter: parent.horizontalCenter
             }
 
             Label {
-                text: "Version 1.2.2"
+                text: qsTr("Version 1.3")
                 font.pixelSize: Theme.fontSizeMedium *7/8
                 wrapMode: Text.Wrap
                 anchors.horizontalCenter: parent.horizontalCenter
@@ -100,10 +94,12 @@ Page {
             }
 
             Label {
-                text: "App to test the phone vibrates."
-                x: Theme.horizontalPageMargin
+                text: qsTr("Application to test the vibration of the device.")
                 font.pixelSize: Theme.fontSizeMedium *4/5
+                x: Theme.horizontalPageMargin
                 wrapMode: Text.Wrap
+                width: parent.width - Theme.horizontalPageMargin *2
+                horizontalAlignment: TextEdit.AlignJustify
 //                anchors.horizontalCenter: parent.horizontalCenter
             }
 
@@ -116,7 +112,7 @@ Page {
             }
 
             Label {
-                text: "Recent changes:"
+                text: qsTr("Recent changes:")
                 font.pixelSize: Theme.fontSizeMedium *7/8
                 color: Theme.highlightColor
                 x: Theme.horizontalPageMargin
@@ -127,12 +123,15 @@ Page {
 
         Repeater {
         model: [
-                "version 1.0.1 - minor changes;",
-                "version 1.1 - the help added; errors fixed;",
-                "version 1.1.1 - the help changed; minor changes;",
-                "version 1.2 - \"Repeat\" added;",
-                "version 1.2.1 - errors fixed;",
-                "version 1.2.2 - minor changes.",
+                qsTr("version 1.0.1 - minor changes;"),
+                qsTr("version 1.1 - the help added; errors fixed;"),
+                qsTr("version 1.1.1 - the help changed; minor changes;"),
+                qsTr("version 1.2 - \"Repeat\" added;"),
+                qsTr("version 1.2.1 - errors fixed;"),
+                qsTr("version 1.2.2 - minor changes;"),
+                qsTr("version 1.3 - Russian translations added;"),
+                qsTr("version 1.4 - French translations added (Thanks to Quenty31);"),
+                qsTr("version 1.5 - Simplified Chinese translations added (Thanks to dashinfantry)."),
                ]
                 Label {
                     text: modelData
@@ -144,15 +143,6 @@ Page {
 //                    anchors.horizontalCenter: parent.horizontalCenter
                   }
                 }
-
-//        Label {
-//            text: ""
-//            font.pixelSize: Theme.fontSizeMedium /4
-//            x: Theme.horizontalPageMargin
-//            wrapMode: Text.Wrap
-//            width: parent.width - Theme.horizontalPageMargin *2
-//        }
-
 
     Label {
         text: ""
