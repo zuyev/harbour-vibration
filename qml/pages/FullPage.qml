@@ -350,13 +350,6 @@ Page {
                 label: qsTr("Effect period")
             }
 
-//          Label {
-//                text: ""
-//                font.pixelSize: Theme.fontSizeMedium /4
-//                x: Theme.horizontalPageMargin
-//                wrapMode: Text.Wrap
-//                width: parent.width - Theme.horizontalPageMargin *2
-//            }
 
           TextSwitch {
               id: repeatTextSwitch
@@ -412,14 +405,6 @@ Page {
               wrapMode: Text.Wrap
               width: parent.width - Theme.horizontalPageMargin *2
           }
-
-//            Button {
-//                text: qsTr("Custom")
-//                enabled: !repeat
-//                anchors.horizontalCenter: parent.horizontalCenter
-//                onPressed: customBuzz.start()
-//                preferredWidth: Theme.buttonWidthLarge
-//            }
 
             Button {
                 text: if (repeat === false) qsTr("onPressed"); else if (press === false) qsTr("Custom Start"); else qsTr("Custom Stop")

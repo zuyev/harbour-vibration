@@ -94,7 +94,7 @@ Page {
             }
 
             Label {
-                text: qsTr("App to test the phone vibrates.")
+                text: qsTr("Application to test the vibration of the device.")
                 font.pixelSize: Theme.fontSizeMedium *4/5
                 x: Theme.horizontalPageMargin
                 wrapMode: Text.Wrap

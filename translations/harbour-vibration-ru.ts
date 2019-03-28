@@ -5,7 +5,7 @@
     <name>CoverPage</name>
     <message>
         <source>VibrationTest</source>
-        <translation type="unfinished">Тест вибромотора</translation>
+        <translation>Тест вибрации</translation>
     </message>
 </context>
 <context>
@@ -20,7 +20,7 @@
     </message>
     <message>
         <source>Extended effects</source>
-        <translation>Расширенные эффекты</translation>
+        <translation>Расширенные настройки</translation>
     </message>
     <message>
         <source>Reset settings</source>
@@ -28,7 +28,7 @@
     </message>
     <message>
         <source>Theme effects</source>
-        <translation>Виброэффекты Темы (системные)</translation>
+        <translation>Системные настройки</translation>
     </message>
     <message>
         <source>Button</source>
@@ -48,11 +48,11 @@
     </message>
     <message>
         <source>Custom effects</source>
-        <translation>Пользовательские эффекты</translation>
+        <translation>Пользовательские настройки</translation>
     </message>
     <message>
         <source>Effect duration</source>
-        <translation>Продолжительность (duration)</translation>
+        <translation>Длительность (duration), мс</translation>
     </message>
     <message>
         <source>Effect intensity</source>
@@ -64,7 +64,7 @@
     </message>
     <message>
         <source>Delay</source>
-        <translation>Задержка</translation>
+        <translation>Задержка, мс</translation>
     </message>
     <message>
         <source>Custom</source>
@@ -84,11 +84,11 @@
     </message>
     <message>
         <source>VibrationTest</source>
-        <translation>Тест вибромотора</translation>
+        <translation>Тест вибрации</translation>
     </message>
     <message>
         <source>Effect duration:</source>
-        <translation>Продолжительность (duration):</translation>
+        <translation>Длительность (duration):</translation>
     </message>
     <message>
         <source>Delay:</source>
@@ -107,11 +107,11 @@
     </message>
     <message>
         <source>Extended effects</source>
-        <translation>Расширенные эффекты</translation>
+        <translation>Расширенные настройки</translation>
     </message>
     <message>
         <source>Theme effects</source>
-        <translation>Виброэффекты Темы (системные)</translation>
+        <translation>Системные настройки</translation>
     </message>
     <message>
         <source>Button</source>
@@ -131,11 +131,11 @@
     </message>
     <message>
         <source>Custom effects</source>
-        <translation>Пользовательские эффекты</translation>
+        <translation>Пользовательские настройки</translation>
     </message>
     <message>
         <source>Effect duration</source>
-        <translation>Продолжительность (duration)</translation>
+        <translation>Длительность (duration), мс</translation>
     </message>
     <message>
         <source>Effect intensity</source>
@@ -143,23 +143,23 @@
     </message>
     <message>
         <source>Effect attackTime</source>
-        <translation>Эффект attackTime</translation>
+        <translation>attackTime, мс</translation>
     </message>
     <message>
         <source>Effect attackIntensity</source>
-        <translation>Эффект attackIntensity</translation>
+        <translation>attackIntensity</translation>
     </message>
     <message>
         <source>Effect fadeTime</source>
-        <translation>Эффект fadeTime</translation>
+        <translation>fadeTime, мс</translation>
     </message>
     <message>
         <source>Effect fadeIntensity</source>
-        <translation>Эффект fadeIntensity</translation>
+        <translation>fadeIntensity</translation>
     </message>
     <message>
         <source>Effect period</source>
-        <translation>Эффект Период (period)</translation>
+        <translation>Период (period), мс</translation>
     </message>
     <message>
         <source>Repeat</source>
@@ -167,7 +167,7 @@
     </message>
     <message>
         <source>Delay</source>
-        <translation>Задержка</translation>
+        <translation>Задержка, мс</translation>
     </message>
     <message>
         <source>Custom Start</source>
@@ -199,19 +199,19 @@
     </message>
     <message>
         <source>Effect duration:</source>
-        <translation>Продолжительность (duration):</translation>
+        <translation>Длительность (duration):</translation>
     </message>
     <message>
         <source>Effect attackTime:</source>
-        <translation>Эффект attackTime:</translation>
+        <translation>attackTime:</translation>
     </message>
     <message>
         <source>Effect fadeTime:</source>
-        <translation>Эффект fadeTime:</translation>
+        <translation>fadeTime:</translation>
     </message>
     <message>
         <source>Effect period:</source>
-        <translation>Эффект Период (period):</translation>
+        <translation>Период (period):</translation>
     </message>
     <message>
         <source>Delay:</source>
@@ -226,133 +226,133 @@
     </message>
     <message>
         <source>Theme effect</source>
-        <translation>Эффекты Темы (системные)</translation>
+        <translation>Системные настройки</translation>
     </message>
     <message>
         <source>Custom effect</source>
-        <translation>Пользовательские эффекты</translation>
+        <translation>Пользовательские настройки</translation>
     </message>
 </context>
 <context>
     <name>Help_Custom_effects</name>
     <message>
         <source>Help Custom effects</source>
-        <translation>Помощь по Пользовательским эффектам</translation>
+        <translation>Помощь. Пользовательские настройки</translation>
     </message>
     <message>
         <source>Effect duration</source>
-        <translation>Эффект Продолжительность (duration)</translation>
+        <translation>Длительность (duration)</translation>
     </message>
     <message>
         <source>This property holds the expected duration of the effect.</source>
-        <translation>Это свойство задает продолжительность эффекта.</translation>
+        <translation>Это свойство задает продолжительность вибрации.</translation>
     </message>
     <message>
         <source>This property defines the total duration of the feedback effect, in milliseconds. It includes the duration of any fade-in or fade-out parts, if any, in non-periodic effects, and includes all repetitions of the period in periodic-effects, if any.</source>
-        <translation>Это свойство определяет общую длительность эффекта обратной связи, в миллисекундах. Она включает в себя продолжительность постепенного усиления и (или) продолжительность затухания вибросигнала, если таковые имеются в непериодических эффектах, а также включает в себя повторения изменений вибросигнала в периодических эффектах, если таковые имеются.</translation>
+        <translation>Это свойство определяет общую длительность вибрации в миллисекундах. Она включает в себя длительность постепенного усиления (attackTime) и (или) длительность затухания (fadeTime) вибрации, если таковые имеются в непериодических эффектах, а также включает в себя повторения изменений вибрации (period) в периодических эффектах, если таковые имеются.</translation>
     </message>
     <message>
         <source>If the duration is set to a value less than &lt;b&gt;attackTime + fadeTime&lt;/b&gt;, or less than the &lt;b&gt;period&lt;/b&gt; of the effect, the waveform which will result is backend-specific.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если значение Длительности (duration) задано меньше, чем &lt;b&gt;attackTime + fadeTime&lt;/b&gt;, или меньше чем &lt;b&gt;period&lt;/b&gt;, то форма волны вибрации будет своеобразной (неожиданной).</translation>
     </message>
     <message>
         <source>Effect intensity</source>
-        <translation>Эффект Интенсивность (intensity)</translation>
+        <translation>Интенсивность (intensity)</translation>
     </message>
     <message>
         <source>This property holds the intensity of the effect.</source>
-        <translation>Это свойство задает интенсивность вибросигнала.</translation>
+        <translation>Это свойство задает Интенсивность вибрации.</translation>
     </message>
     <message>
         <source>This property defines the intensity of the feedback effect. The value can be between 0 and 1.</source>
-        <translation>Это свойство определяет интенсивность эффекта обратной связи. Значение может быть от 0 до 1.</translation>
+        <translation>Это свойство определяет Интенсивность вибрации (эффекта обратной связи). Значение может быть задано от 0 до 1.</translation>
     </message>
     <message>
         <source>For non-periodic effects, the effect will be at this intensity for &lt;b&gt;(duration - (attackTime + fadeTime))&lt;/b&gt; milliseconds. For periodic effects, the effect will be at this intensity once per period for &lt;b&gt;(period - (attackTime + fadeTime))&lt;/b&gt; milliseconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>Для непериодической вибрации значение Интенсивности будет применимо в течение &lt;b&gt;(duration - (attackTime + fadeTime))&lt;/b&gt;. Для периодической вибрации значение Интенсивности будет применимо каждый раз за период в течение &lt;b&gt;(period - (attackTime + fadeTime))&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Effect attackTime</source>
-        <translation>Эффект attackTime</translation>
+        <translation>attackTime</translation>
     </message>
     <message>
         <source>This property holds the duration of the fade-in effect.</source>
-        <translation>Это свойство определяет длительность усиления эффекта.</translation>
+        <translation>Это свойство определяет длительность усиления вибрации.</translation>
     </message>
     <message>
         <source>This property defines the duration of the fade-in effect in milliseconds. The effect will ramp up (or down) from &lt;b&gt;attackIntensity&lt;/b&gt; to &lt;b&gt;intensity&lt;/b&gt; in &lt;b&gt;attackTime&lt;/b&gt; milliseconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>Это свойство определяет длительность эффекта усиления в миллисекундах. Эффект будет нарастать (или уменьшаться) от  &lt;b&gt;attackIntensity&lt;/b&gt; до &lt;b&gt;intensity&lt;/b&gt; во время &lt;b&gt;attackTime&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>If the attack time is set to a value such that &lt;b&gt;attackTime + fadeTime&lt;/b&gt; is greater than &lt;b&gt;duration&lt;/b&gt; for non-periodic effects, or greater than &lt;b&gt;period&lt;/b&gt; for periodic effects, the waveform which will result is backend-specific.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если время attackTime задано так, что &lt;b&gt;attackTime + fadeTime&lt;/b&gt; больше чем &lt;b&gt;duration&lt;/b&gt; для непериодической вибрации, или больше, чем &lt;b&gt;period&lt;/b&gt; для периодической вибрации, то форма волны вибрации будет своеобразной (неожиданной).</translation>
     </message>
     <message>
         <source>Effect attackIntensity</source>
-        <translation>Эффект attackIntensity</translation>
+        <translation>attackIntensity</translation>
     </message>
     <message>
         <source>This property holds the initial intensity of the effect.</source>
-        <translation>Это свойство определяет начальную интенсивность эффекта.</translation>
+        <translation>Это свойство определяет начальную интенсивность вибрации.</translation>
     </message>
     <message>
         <source>This property defines the initial intensity of the effect, before it fades in. It is usually lower than intensity. The effect will ramp up (or down) from &lt;b&gt;attackIntensity&lt;/b&gt; to &lt;b&gt;intensity&lt;/b&gt; in &lt;b&gt;attackTime&lt;/b&gt; milliseconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>Это свойство определяет начальную интенсивность вибрации. Значение attackIntensity, как правило, меньше, чем Интенсивность (intensity). Эффект будет нарастать (или уменьшаться) от &lt;b&gt;attackIntensity&lt;/b&gt; до &lt;b&gt;intensity&lt;/b&gt; в течение &lt;b&gt;attackTime&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Effect fadeTime</source>
-        <translation>Эффект fadeTime</translation>
+        <translation>fadeTime</translation>
     </message>
     <message>
         <source>This property holds the duration of the fade-out effect.</source>
-        <translation>Это свойство определяет длительность затухания эффекта.</translation>
+        <translation>Это свойство определяет длительность затухания вибрации.</translation>
     </message>
     <message>
         <source>This property defines the duration of the fade-out effect in milliseconds. The effect will ramp down (or up) from &lt;b&gt;intensity&lt;/b&gt; to &lt;b&gt;fadeIntensity&lt;/b&gt; in &lt;b&gt;fadeTime&lt;/b&gt; milliseconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>Это свойство определяет длительность затухания вибрации в миллисекундах. Вибрация будет уменьшаться (или усиливаться) от &lt;b&gt;intensity&lt;/b&gt; до &lt;b&gt;fadeIntensity&lt;/b&gt; в течение &lt;b&gt;fadeTime&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>If the fade time is set to a value such that &lt;b&gt;attackTime + fadeTime&lt;/b&gt; is greater than &lt;b&gt;duration&lt;/b&gt; for non-periodic effects, or greater than &lt;b&gt;period&lt;/b&gt; for periodic effects, the waveform which will result is backend-specific.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если время затухания установлено так, что &lt;b&gt;attackTime + fadeTime&lt;/b&gt; больше чем &lt;b&gt;duration&lt;/b&gt; для непериодических вибраций, или больше, чем &lt;b&gt;period&lt;/b&gt; для периодических вибраций, то форма волны вибрации будет своеобразной (неожиданной).</translation>
     </message>
     <message>
         <source>Effect fadeIntensity</source>
-        <translation>Эффект fadeIntensity</translation>
+        <translation>fadeIntensity</translation>
     </message>
     <message>
         <source>This property holds the final intensity of the effect.</source>
-        <translation>Это свойство задает конечную интенсивность эффекта.</translation>
+        <translation>Это свойство задает конечную интенсивность вибрации.</translation>
     </message>
     <message>
         <source>This property defines the final intensity of the effect, after it fades out. It is usually lower than intensity. The effect will ramp down (or up) from &lt;b&gt;intensity&lt;/b&gt; to &lt;b&gt;fadeIntensity&lt;/b&gt; in &lt;b&gt;fadeTime&lt;/b&gt; milliseconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>Это свойство определяет конечную интенсивность вибрации. Значение fadeIntensity, как правило, меньше, чем Интенсивность (intensity). Эффект будет уменьшаться (или увеличиваться) от &lt;b&gt;intensity&lt;/b&gt; до &lt;b&gt;fadeIntensity&lt;/b&gt; в течение &lt;b&gt;fadeTime&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Effect period</source>
-        <translation>Эффект period</translation>
+        <translation>Период (period)</translation>
     </message>
     <message>
         <source>This property holds set the period for the effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Это свойство задает периодичность изменений вибрации.</translation>
     </message>
     <message>
         <source>It has a default value of -1, which means that it is not a periodic effect. You can only change the period when the effect is stopped. The duration of the effect should be set to a value larger than the period of the effect if you wish the periodicity to be discernable. Note: Not all actuators support periodic effects.</source>
-        <translation type="unfinished"></translation>
+        <translation>Период (period) имеет значение по умолчанию -1, что означает, что вибрация не периодическая. Вы можете изменить период, когда вибрация остановлена. Если вы хотите, чтобы периодичность была различима, длительность (duration) вибрации должна быть больше периода (period). Примечание: не все приводы поддерживают периодические мзменения вибрации.</translation>
+    </message>
+    <message>
+        <source>If the &lt;b&gt;period&lt;/b&gt; is set to a value which is less than &lt;b&gt;attackTime + fadeTime&lt;/b&gt;, the waveform which will result is backend-specific.</source>
+        <translation>Если Период &lt;b&gt;(period)&lt;/b&gt; имеет значение меньшее, чем &lt;b&gt;attackTime + fadeTime&lt;/b&gt; то форма волны вибрации будет своеобразной (неожиданной).</translation>
     </message>
     <message>
         <source>The period defines the total length of the periodic envelope, which will be repeated up until &lt;b&gt;duration&lt;/b&gt; milliseconds has elapsed. For a periodic effect, the intensity will start at &lt;b&gt;attackIntensity&lt;/font&gt;, ramp to &lt;b&gt;intensity&lt;/b&gt; (where it stays for &lt;b&gt;(period - (attackTime + fadeTime))&lt;/b&gt; milliseconds), then ramp to &lt;b&gt;fadeIntensity&lt;/b&gt;. This waveform will be repeated as many times as required until the &lt;b&gt;duration&lt;/b&gt; has elapsed.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>If the period is set to a value which is less than &lt;b&gt;attackTime + fadeTime&lt;/b&gt;, the waveform which will result is backend-specific.</source>
-        <translation type="unfinished"></translation>
+        <translation>Период &lt;b&gt;(period)&lt;/b&gt; определяет длину повторения изменений вибрации, которая будет повторяться в пределах общей длительности &lt;b&gt;duration&lt;/b&gt;, в миллисекундах. Для периодическоой вибрации интенсивность будет начинаться с &lt;b&gt;attackIntensity&lt;/font&gt; и изменяться до &lt;b&gt;intensity&lt;/b&gt;, где она остается в течение &lt;b&gt;(period - (attackTime + fadeTime))&lt;/b&gt;, затем изменяется до &lt;b&gt;fadeIntensity&lt;/b&gt;.  Эта форма волны будет повторяться в течение Длительности &lt;b&gt;(duration)&lt;/b&gt;.</translation>
     </message>
 </context>
 <context>
     <name>Help_Theme_effects</name>
     <message>
         <source>Help Theme effects</source>
-        <translation>Помощь по эффектам Темы (системным)</translation>
+        <translation>Помощь. Системные настройки</translation>
     </message>
     <message>
         <source>Button, KeyPad, Long</source>
@@ -360,7 +360,7 @@
     </message>
     <message>
         <source>Effects determined by the current Theme (system settings).</source>
-        <translation>Эффекты определены текущей Темой (системными настройками).</translation>
+        <translation>Для Button, KeyPad, Long свойства определены текущей Темой (системными настройками).</translation>
     </message>
     <message>
         <source>Periodic</source>
@@ -368,7 +368,7 @@
     </message>
     <message>
         <source>Effects values used</source>
-        <translation>Использованы следующие значения</translation>
+        <translation>Для Periodic использованы следующие настройки</translation>
     </message>
     <message>
         <source>intensity: 0.9</source>
@@ -407,15 +407,11 @@
     </message>
     <message>
         <source>VibrationTest</source>
-        <translation>Тест вибромотора</translation>
+        <translation>Тест вибрации</translation>
     </message>
     <message>
         <source>Version 1.3</source>
         <translation>Версия 1.3</translation>
-    </message>
-    <message>
-        <source>App to test the phone vibrates.</source>
-        <translation>Приложение для тестирования вибромотора.</translation>
     </message>
     <message>
         <source>Recent changes:</source>
@@ -456,6 +452,10 @@
     <message>
         <source>version 1.5 - Simplified Chinese translations added (Thanks to dashinfantry).</source>
         <translation>версия 1.5 - добавлен упрощенный китайский перевод (Спасибо dashinfantry).</translation>
+    </message>
+    <message>
+        <source>Application to test the vibration of the device.</source>
+        <translation>Приложение для тестирования вибрации устройства.</translation>
     </message>
 </context>
 </TS>
