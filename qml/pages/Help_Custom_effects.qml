@@ -268,7 +268,7 @@ Page {
             qsTr("This property holds set the period for the effect."),
             qsTr("It has a default value of -1, which means that it is not a periodic effect. You can only change the period when the effect is stopped. The duration of the effect should be set to a value larger than the period of the effect if you wish the periodicity to be discernable. Note: Not all actuators support periodic effects."),
             qsTr("The period defines the total length of the periodic envelope, which will be repeated up until <b>duration</b> milliseconds has elapsed. For a periodic effect, the intensity will start at <b>attackIntensity</font>, ramp to <b>intensity</b> (where it stays for <b>(period - (attackTime + fadeTime))</b> milliseconds), then ramp to <b>fadeIntensity</b>. This waveform will be repeated as many times as required until the <b>duration</b> has elapsed."),
-            qsTr("If the period is set to a value which is less than <b>attackTime + fadeTime</b>, the waveform which will result is backend-specific."),
+            qsTr("If the <b>period</b> is set to a value which is less than <b>attackTime + fadeTime</b>, the waveform which will result is backend-specific."),
         ]
         Label {
             text: modelData

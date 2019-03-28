@@ -94,10 +94,12 @@ Page {
             }
 
             Label {
-                text: qsTr("App to test the phone vibrates.")
-                x: Theme.horizontalPageMargin
+                text: qsTr("Application to test the vibration of the device.")
                 font.pixelSize: Theme.fontSizeMedium *4/5
+                x: Theme.horizontalPageMargin
                 wrapMode: Text.Wrap
+                width: parent.width - Theme.horizontalPageMargin *2
+                horizontalAlignment: TextEdit.AlignJustify
 //                anchors.horizontalCenter: parent.horizontalCenter
             }
 
@@ -127,8 +129,9 @@ Page {
                 qsTr("version 1.2 - \"Repeat\" added;"),
                 qsTr("version 1.2.1 - errors fixed;"),
                 qsTr("version 1.2.2 - minor changes;"),
-                qsTr("version 1.3 - French translations added (Thanks to Quenty31);"),
-                qsTr("version 1.4 - Simplified Chinese translations added (Thanks to dashinfantry)."),
+                qsTr("version 1.3 - Russian translations added;"),
+                qsTr("version 1.4 - French translations added (Thanks to Quenty31);"),
+                qsTr("version 1.5 - Simplified Chinese translations added (Thanks to dashinfantry)."),
                ]
                 Label {
                     text: modelData

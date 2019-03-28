@@ -4,14 +4,6 @@
 <context>
     <name>CoverPage</name>
     <message>
-        <source> </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>  </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>VibrationTest</source>
         <translation type="unfinished"></translation>
     </message>
@@ -348,11 +340,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The period defines the total length of the periodic envelope, which will be repeated up until &lt;b&gt;duration&lt;/b&gt; milliseconds has elapsed. For a periodic effect, the intensity will start at &lt;b&gt;attackIntensity&lt;/font&gt;, ramp to &lt;b&gt;intensity&lt;/b&gt; (where it stays for &lt;b&gt;(period - (attackTime + fadeTime))&lt;/b&gt; milliseconds), then ramp to &lt;b&gt;fadeIntensity&lt;/b&gt;. This waveform will be repeated as many times as required until the &lt;b&gt;duration&lt;/b&gt; has elapsed.</source>
+        <source>If the &lt;b&gt;period&lt;/b&gt; is set to a value which is less than &lt;b&gt;attackTime + fadeTime&lt;/b&gt;, the waveform which will result is backend-specific.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>If the period is set to a value which is less than &lt;b&gt;attackTime + fadeTime&lt;/b&gt;, the waveform which will result is backend-specific.</source>
+        <source>The period defines the total length of the periodic envelope, which will be repeated up until &lt;b&gt;duration&lt;/b&gt; milliseconds has elapsed. For a periodic effect, the intensity will start at &lt;b&gt;attackIntensity&lt;/font&gt;, ramp to &lt;b&gt;intensity&lt;/b&gt; (where it stays for &lt;b&gt;(period - (attackTime + fadeTime))&lt;/b&gt; milliseconds), then ramp to &lt;b&gt;fadeIntensity&lt;/b&gt;. This waveform will be repeated as many times as required until the &lt;b&gt;duration&lt;/b&gt; has elapsed.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -422,10 +414,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>App to test the phone vibrates.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Recent changes:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -454,11 +442,19 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>version 1.3 - French translations added (Thanks to Quenty31);</source>
+        <source>version 1.3 - Russian translations added;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>version 1.4 - Simplified Chinese translations added (Thanks to dashinfantry).</source>
+        <source>version 1.4 - French translations added (Thanks to Quenty31);</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>version 1.5 - Simplified Chinese translations added (Thanks to dashinfantry).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Application to test the vibration of the device.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
