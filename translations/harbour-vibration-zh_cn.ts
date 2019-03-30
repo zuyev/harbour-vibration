@@ -367,10 +367,6 @@
         <translation>周期</translation>
     </message>
     <message>
-        <source>Effects values used</source>
-        <translation>使用效果值</translation>
-    </message>
-    <message>
         <source>intensity: 0.9</source>
         <translation>强度：0.9</translation>
     </message>
@@ -397,6 +393,10 @@
     <message>
         <source>period: 20</source>
         <translation>周期: 20</translation>
+    </message>
+    <message>
+        <source>Effects values used:</source>
+        <translation>使用效果值:</translation>
     </message>
 </context>
 <context>
@@ -442,20 +442,20 @@
         <translation>版本 1.2.2 - 微小改动;</translation>
     </message>
     <message>
-        <source>version 1.3 - Russian translations added;</source>
-        <translation>版本 1.3 -加入俄语翻译;</translation>
-    </message>
-    <message>
-        <source>version 1.4 - French translations added (Thanks to Quenty31);</source>
-        <translation>>版本 1.4 - 加入法语翻译 (感谢 Quenty31);</translation>
-    </message>
-    <message>
-        <source>version 1.5 - Simplified Chinese translations added (Thanks to dashinfantry).</source>
-        <translation>版本 1.5 - 加入简体中文 (感谢 dashinfantry)。</translation>
-    </message>
-    <message>
         <source>Application to test the vibration of the device.</source>
-        <translation>测试设备振动效果的软件。></translation>
+        <translation>测试设备振动效果的软件。;</translation>
+    </message>
+    <message>
+        <source>version 1.3 - Russian translations added; Simplified Chinese translations added (Thanks to dashinfantry).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translations:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Simplified Chinese:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

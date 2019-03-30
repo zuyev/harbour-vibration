@@ -12,7 +12,7 @@
     <name>FirstPage</name>
     <message>
         <source>About ...</source>
-        <translation>О программе</translation>
+        <translation>О приложении</translation>
     </message>
     <message>
         <source>Help</source>
@@ -28,7 +28,7 @@
     </message>
     <message>
         <source>Theme effects</source>
-        <translation>Системные настройки</translation>
+        <translation>Системные вибрации</translation>
     </message>
     <message>
         <source>Button</source>
@@ -111,7 +111,7 @@
     </message>
     <message>
         <source>Theme effects</source>
-        <translation>Системные настройки</translation>
+        <translation>Системные вибрации</translation>
     </message>
     <message>
         <source>Button</source>
@@ -226,7 +226,7 @@
     </message>
     <message>
         <source>Theme effect</source>
-        <translation>Системные настройки</translation>
+        <translation>Системные вибрации</translation>
     </message>
     <message>
         <source>Custom effect</source>
@@ -352,7 +352,7 @@
     <name>Help_Theme_effects</name>
     <message>
         <source>Help Theme effects</source>
-        <translation>Помощь. Системные настройки</translation>
+        <translation>Помощь. Системные вибрации</translation>
     </message>
     <message>
         <source>Button, KeyPad, Long</source>
@@ -365,10 +365,6 @@
     <message>
         <source>Periodic</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Effects values used</source>
-        <translation>Для Periodic использованы следующие настройки</translation>
     </message>
     <message>
         <source>intensity: 0.9</source>
@@ -397,6 +393,10 @@
     <message>
         <source>period: 20</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Effects values used:</source>
+        <translation>Для Periodic использованы следующие настройки:</translation>
     </message>
 </context>
 <context>
@@ -442,20 +442,20 @@
         <translation>версия 1.2.2 - незначительные изменения;</translation>
     </message>
     <message>
-        <source>version 1.3 - Russian translations added;</source>
-        <translation>версия 1.3 - добавлен русский перевод;</translation>
-    </message>
-    <message>
-        <source>version 1.4 - French translations added (Thanks to Quenty31);</source>
-        <translation>версия 1.4 - добавлен французкий перевод (Спасибо Quenty31);</translation>
-    </message>
-    <message>
-        <source>version 1.5 - Simplified Chinese translations added (Thanks to dashinfantry).</source>
-        <translation>версия 1.5 - добавлен упрощенный китайский перевод (Спасибо dashinfantry).</translation>
-    </message>
-    <message>
         <source>Application to test the vibration of the device.</source>
         <translation>Приложение для тестирования вибрации устройства.</translation>
+    </message>
+    <message>
+        <source>version 1.3 - Russian translations added; Simplified Chinese translations added (Thanks to dashinfantry).</source>
+        <translation>версия 1.3 - добавлен перевод на русский язык; добавлен перевод на китайский (упрощенный) язык (спасибо dashinfantry).</translation>
+    </message>
+    <message>
+        <source>Translations:</source>
+        <translation>Переводы:</translation>
+    </message>
+    <message>
+        <source>Simplified Chinese:</source>
+        <translation>упрощенный китайский:</translation>
     </message>
 </context>
 </TS>

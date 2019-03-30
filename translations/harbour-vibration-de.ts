@@ -367,10 +367,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Effects values used</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>intensity: 0.9</source>
         <translation type="unfinished"></translation>
     </message>
@@ -396,6 +392,10 @@
     </message>
     <message>
         <source>period: 20</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Effects values used:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -442,19 +442,19 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>version 1.3 - Russian translations added;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>version 1.4 - French translations added (Thanks to Quenty31);</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>version 1.5 - Simplified Chinese translations added (Thanks to dashinfantry).</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Application to test the vibration of the device.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>version 1.3 - Russian translations added; Simplified Chinese translations added (Thanks to dashinfantry).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translations:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Simplified Chinese:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
