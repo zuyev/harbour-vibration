@@ -435,7 +435,7 @@
     </message>
     <message>
         <source>version 1.2.1 - errors fixed;</source>
-        <translation>версия 1.2.1 - ошибки исправлены;</translation>
+        <translation>версия 1.2.1 - исправлены ошибки;</translation>
     </message>
     <message>
         <source>version 1.2.2 - minor changes;</source>
