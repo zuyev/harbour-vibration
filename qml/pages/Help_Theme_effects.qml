@@ -99,7 +99,7 @@ Page {
 
         Repeater {
         model: [
-            qsTr("Effects values used"),
+            qsTr("Effects values used:"),
             qsTr("intensity: 0.9"),
             qsTr("duration: 2000"),
             qsTr("attackTime: 500"),

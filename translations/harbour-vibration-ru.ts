@@ -12,7 +12,7 @@
     <name>FirstPage</name>
     <message>
         <source>About ...</source>
-        <translation>О программе</translation>
+        <translation>О приложении</translation>
     </message>
     <message>
         <source>Help</source>
@@ -28,7 +28,7 @@
     </message>
     <message>
         <source>Theme effects</source>
-        <translation>Системные настройки</translation>
+        <translation>Системные вибрации</translation>
     </message>
     <message>
         <source>Button</source>
@@ -111,7 +111,7 @@
     </message>
     <message>
         <source>Theme effects</source>
-        <translation>Системные настройки</translation>
+        <translation>Системные вибрации</translation>
     </message>
     <message>
         <source>Button</source>
@@ -226,7 +226,7 @@
     </message>
     <message>
         <source>Theme effect</source>
-        <translation>Системные настройки</translation>
+        <translation>Системные вибрации</translation>
     </message>
     <message>
         <source>Custom effect</source>
@@ -249,7 +249,7 @@
     </message>
     <message>
         <source>This property defines the total duration of the feedback effect, in milliseconds. It includes the duration of any fade-in or fade-out parts, if any, in non-periodic effects, and includes all repetitions of the period in periodic-effects, if any.</source>
-        <translation>Это свойство определяет общую длительность вибрации в миллисекундах. Она включает в себя длительность постепенного усиления (attackTime) и (или) длительность затухания (fadeTime) вибрации, если таковые имеются в непериодических эффектах, а также включает в себя повторения изменений вибрации (period) в периодических эффектах, если таковые имеются.</translation>
+        <translation>Это свойство определяет общую длительность вибрации в миллисекундах. Длительность (duration) включает в себя длительность постепенного усиления (attackTime) и (или) длительность затухания (fadeTime) вибрации, если таковые имеются в непериодических вибрациях, а также включает в себя повторения изменений вибрации (period) в периодических вибрациях, если таковые имеются.</translation>
     </message>
     <message>
         <source>If the duration is set to a value less than &lt;b&gt;attackTime + fadeTime&lt;/b&gt;, or less than the &lt;b&gt;period&lt;/b&gt; of the effect, the waveform which will result is backend-specific.</source>
@@ -281,7 +281,7 @@
     </message>
     <message>
         <source>This property defines the duration of the fade-in effect in milliseconds. The effect will ramp up (or down) from &lt;b&gt;attackIntensity&lt;/b&gt; to &lt;b&gt;intensity&lt;/b&gt; in &lt;b&gt;attackTime&lt;/b&gt; milliseconds.</source>
-        <translation>Это свойство определяет длительность эффекта усиления в миллисекундах. Эффект будет нарастать (или уменьшаться) от  &lt;b&gt;attackIntensity&lt;/b&gt; до &lt;b&gt;intensity&lt;/b&gt; во время &lt;b&gt;attackTime&lt;/b&gt;.</translation>
+        <translation>Это свойство определяет длительность усиления интенсивности вибрации в миллисекундах. Интенсивность вибрации будет нарастать (или уменьшаться) от  &lt;b&gt;attackIntensity&lt;/b&gt; до &lt;b&gt;intensity&lt;/b&gt; во время &lt;b&gt;attackTime&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>If the attack time is set to a value such that &lt;b&gt;attackTime + fadeTime&lt;/b&gt; is greater than &lt;b&gt;duration&lt;/b&gt; for non-periodic effects, or greater than &lt;b&gt;period&lt;/b&gt; for periodic effects, the waveform which will result is backend-specific.</source>
@@ -297,7 +297,7 @@
     </message>
     <message>
         <source>This property defines the initial intensity of the effect, before it fades in. It is usually lower than intensity. The effect will ramp up (or down) from &lt;b&gt;attackIntensity&lt;/b&gt; to &lt;b&gt;intensity&lt;/b&gt; in &lt;b&gt;attackTime&lt;/b&gt; milliseconds.</source>
-        <translation>Это свойство определяет начальную интенсивность вибрации. Значение attackIntensity, как правило, меньше, чем Интенсивность (intensity). Эффект будет нарастать (или уменьшаться) от &lt;b&gt;attackIntensity&lt;/b&gt; до &lt;b&gt;intensity&lt;/b&gt; в течение &lt;b&gt;attackTime&lt;/b&gt;.</translation>
+        <translation>Это свойство определяет начальную интенсивность вибрации. Значение attackIntensity, как правило, меньше, чем Интенсивность (intensity). Интенсивность будет нарастать (или уменьшаться) от &lt;b&gt;attackIntensity&lt;/b&gt; до &lt;b&gt;intensity&lt;/b&gt; в течение &lt;b&gt;attackTime&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Effect fadeTime</source>
@@ -325,7 +325,7 @@
     </message>
     <message>
         <source>This property defines the final intensity of the effect, after it fades out. It is usually lower than intensity. The effect will ramp down (or up) from &lt;b&gt;intensity&lt;/b&gt; to &lt;b&gt;fadeIntensity&lt;/b&gt; in &lt;b&gt;fadeTime&lt;/b&gt; milliseconds.</source>
-        <translation>Это свойство определяет конечную интенсивность вибрации. Значение fadeIntensity, как правило, меньше, чем Интенсивность (intensity). Эффект будет уменьшаться (или увеличиваться) от &lt;b&gt;intensity&lt;/b&gt; до &lt;b&gt;fadeIntensity&lt;/b&gt; в течение &lt;b&gt;fadeTime&lt;/b&gt;.</translation>
+        <translation>Это свойство определяет конечную интенсивность вибрации. Значение fadeIntensity, как правило, меньше, чем Интенсивность (intensity). Интенсивность будет уменьшаться (или увеличиваться) от &lt;b&gt;intensity&lt;/b&gt; до &lt;b&gt;fadeIntensity&lt;/b&gt; в течение &lt;b&gt;fadeTime&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Effect period</source>
@@ -352,7 +352,7 @@
     <name>Help_Theme_effects</name>
     <message>
         <source>Help Theme effects</source>
-        <translation>Помощь. Системные настройки</translation>
+        <translation>Помощь. Системные вибрации</translation>
     </message>
     <message>
         <source>Button, KeyPad, Long</source>
@@ -365,10 +365,6 @@
     <message>
         <source>Periodic</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Effects values used</source>
-        <translation>Для Periodic использованы следующие настройки</translation>
     </message>
     <message>
         <source>intensity: 0.9</source>
@@ -397,6 +393,10 @@
     <message>
         <source>period: 20</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Effects values used:</source>
+        <translation>Для Periodic использованы следующие настройки:</translation>
     </message>
 </context>
 <context>
@@ -435,27 +435,27 @@
     </message>
     <message>
         <source>version 1.2.1 - errors fixed;</source>
-        <translation>версия 1.2.1 - ошибки исправлены;</translation>
+        <translation>версия 1.2.1 - исправлены ошибки;</translation>
     </message>
     <message>
         <source>version 1.2.2 - minor changes;</source>
         <translation>версия 1.2.2 - незначительные изменения;</translation>
     </message>
     <message>
-        <source>version 1.3 - Russian translations added;</source>
-        <translation>версия 1.3 - добавлен русский перевод;</translation>
-    </message>
-    <message>
-        <source>version 1.4 - French translations added (Thanks to Quenty31);</source>
-        <translation>версия 1.4 - добавлен французкий перевод (Спасибо Quenty31);</translation>
-    </message>
-    <message>
-        <source>version 1.5 - Simplified Chinese translations added (Thanks to dashinfantry).</source>
-        <translation>версия 1.5 - добавлен упрощенный китайский перевод (Спасибо dashinfantry).</translation>
-    </message>
-    <message>
         <source>Application to test the vibration of the device.</source>
         <translation>Приложение для тестирования вибрации устройства.</translation>
+    </message>
+    <message>
+        <source>version 1.3 - Russian translations added; Simplified Chinese translations added (Thanks to dashinfantry).</source>
+        <translation>версия 1.3 - добавлен перевод на русский язык; добавлен перевод на китайский (упрощенный) язык (спасибо dashinfantry).</translation>
+    </message>
+    <message>
+        <source>Translations:</source>
+        <translation>Переводы:</translation>
+    </message>
+    <message>
+        <source>Simplified Chinese:</source>
+        <translation>упрощенный китайский:</translation>
     </message>
 </context>
 </TS>
