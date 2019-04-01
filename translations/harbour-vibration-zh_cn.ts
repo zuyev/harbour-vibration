@@ -447,15 +447,15 @@
     </message>
     <message>
         <source>version 1.3 - Russian translations added; Simplified Chinese translations added (Thanks to dashinfantry).</source>
-        <translation type="unfinished"></translation>
+        <translation>版本 1.3 - 俄语翻译补充; 添加了简体中文翻译 （感谢dashinfantry）</translation>
     </message>
     <message>
         <source>Translations:</source>
-        <translation type="unfinished"></translation>
+        <translation>翻译:</translation>
     </message>
     <message>
         <source>Simplified Chinese:</source>
-        <translation type="unfinished"></translation>
+        <translation>简体中文:</translation>
     </message>
 </context>
 </TS>
