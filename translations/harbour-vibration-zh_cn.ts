@@ -20,7 +20,7 @@
     </message>
     <message>
         <source>Extended effects</source>
-        <translation>扩大效果</translation>
+        <translation>扩大振感</translation>
     </message>
     <message>
         <source>Reset settings</source>
@@ -28,71 +28,71 @@
     </message>
     <message>
         <source>VibrationTest</source>
-        <translation type="unfinished">振动测试</translation>
+        <translation>振动测试</translation>
     </message>
     <message>
         <source>Theme effects</source>
-        <translation type="unfinished"></translation>
+        <translation>主题效果</translation>
     </message>
     <message>
         <source>Button</source>
-        <translation type="unfinished"></translation>
+        <translation>按钮</translation>
     </message>
     <message>
         <source>Long</source>
-        <translation type="unfinished"></translation>
+        <translation>长按</translation>
     </message>
     <message>
         <source>Keypad</source>
-        <translation type="unfinished"></translation>
+        <translation>键盘</translation>
     </message>
     <message>
         <source>Periodic</source>
-        <translation type="unfinished"></translation>
+        <translation>周期</translation>
     </message>
     <message>
         <source>Custom effects</source>
-        <translation type="unfinished"></translation>
+        <translation>自定义振动</translation>
     </message>
     <message>
         <source>Effect duration:</source>
-        <translation type="unfinished"></translation>
+        <translation>振动持续时间:</translation>
     </message>
     <message>
         <source>Effect duration</source>
-        <translation type="unfinished"></translation>
+        <translation>振动持续时间</translation>
     </message>
     <message>
         <source>Effect intensity</source>
-        <translation type="unfinished"></translation>
+        <translation>振动强度</translation>
     </message>
     <message>
         <source>Repeat</source>
-        <translation type="unfinished"></translation>
+        <translation>重复</translation>
     </message>
     <message>
         <source>Delay:</source>
-        <translation type="unfinished"></translation>
+        <translation>延迟：</translation>
     </message>
     <message>
         <source>Delay</source>
-        <translation type="unfinished"></translation>
+        <translation>延迟</translation>
     </message>
     <message>
         <source>Custom</source>
-        <translation type="unfinished"></translation>
+        <translation>自定义</translation>
     </message>
     <message>
         <source>Custom Start</source>
-        <translation type="unfinished"></translation>
+        <translation>自定义启动</translation>
     </message>
     <message>
         <source>Custom Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>自定义停止</translation>
     </message>
     <message>
         <source>Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>菜单</translation>
     </message>
 </context>
 <context>
@@ -107,355 +107,355 @@
     </message>
     <message>
         <source>Extended effects</source>
-        <translation type="unfinished">扩大效果</translation>
+        <translation>扩大振感</translation>
     </message>
     <message>
         <source>Theme effects</source>
-        <translation type="unfinished"></translation>
+        <translation>主题效果</translation>
     </message>
     <message>
         <source>Button</source>
-        <translation type="unfinished"></translation>
+        <translation>按钮</translation>
     </message>
     <message>
         <source>Long</source>
-        <translation type="unfinished"></translation>
+        <translation>长按</translation>
     </message>
     <message>
         <source>Keypad</source>
-        <translation type="unfinished"></translation>
+        <translation>键盘</translation>
     </message>
     <message>
         <source>Periodic</source>
-        <translation type="unfinished"></translation>
+        <translation>定期</translation>
     </message>
     <message>
         <source>Custom effects</source>
-        <translation type="unfinished"></translation>
+        <translation>自定义振动</translation>
     </message>
     <message>
         <source>Effect duration:</source>
-        <translation type="unfinished"></translation>
+        <translation>振动持续时间：</translation>
     </message>
     <message>
         <source>Effect duration</source>
-        <translation type="unfinished"></translation>
+        <translation>振动持续时间</translation>
     </message>
     <message>
         <source>Effect intensity</source>
-        <translation type="unfinished"></translation>
+        <translation>振动强度</translation>
     </message>
     <message>
         <source>Effect attackTime:</source>
-        <translation type="unfinished"></translation>
+        <translation>振动启动时间：</translation>
     </message>
     <message>
         <source>Effect attackTime</source>
-        <translation type="unfinished"></translation>
+        <translation>振动时间</translation>
     </message>
     <message>
         <source>Effect attackIntensity</source>
-        <translation type="unfinished"></translation>
+        <translation>振动强度</translation>
     </message>
     <message>
         <source>Effect fadeTime:</source>
-        <translation type="unfinished"></translation>
+        <translation>振动淡出时间：</translation>
     </message>
     <message>
         <source>Effect fadeTime</source>
-        <translation type="unfinished"></translation>
+        <translation>振动淡出时间</translation>
     </message>
     <message>
         <source>Effect fadeIntensity</source>
-        <translation type="unfinished"></translation>
+        <translation>振动淡出强度</translation>
     </message>
     <message>
         <source>Effect period:</source>
-        <translation type="unfinished"></translation>
+        <translation>振动周期</translation>
     </message>
     <message>
         <source>Effect period</source>
-        <translation type="unfinished"></translation>
+        <translation>振动周期</translation>
     </message>
     <message>
         <source>Repeat</source>
-        <translation type="unfinished"></translation>
+        <translation>重复</translation>
     </message>
     <message>
         <source>Delay:</source>
-        <translation type="unfinished"></translation>
+        <translation>延迟：</translation>
     </message>
     <message>
         <source>Delay</source>
-        <translation type="unfinished"></translation>
+        <translation>延迟</translation>
     </message>
     <message>
         <source>onPressed</source>
-        <translation type="unfinished"></translation>
+        <translation>当按下</translation>
     </message>
     <message>
         <source>Custom Start</source>
-        <translation type="unfinished"></translation>
+        <translation>自定义启动</translation>
     </message>
     <message>
         <source>Custom Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>自定义停止</translation>
     </message>
     <message>
         <source>onReleased</source>
-        <translation type="unfinished"></translation>
+        <translation>当按下</translation>
     </message>
     <message>
         <source>onClicked</source>
-        <translation type="unfinished"></translation>
+        <translation>当点击</translation>
     </message>
     <message>
         <source>onPressed, onReleased</source>
-        <translation type="unfinished"></translation>
+        <translation>当按下及释放</translation>
     </message>
     <message>
         <source>Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>菜单</translation>
     </message>
 </context>
 <context>
     <name>Help</name>
     <message>
         <source>Help</source>
-        <translation type="unfinished">帮助</translation>
+        <translation>帮助</translation>
     </message>
     <message>
         <source>Theme effect</source>
-        <translation type="unfinished"></translation>
+        <translation>主题效果</translation>
     </message>
     <message>
         <source>Custom effect</source>
-        <translation type="unfinished"></translation>
+        <translation>自定义振动</translation>
     </message>
 </context>
 <context>
     <name>Help_Custom_effects</name>
     <message>
         <source>Help Custom effects</source>
-        <translation type="unfinished"></translation>
+        <translation>帮助自定义振动</translation>
     </message>
     <message>
         <source>Effect duration</source>
-        <translation type="unfinished"></translation>
+        <translation>振动持续时间</translation>
     </message>
     <message>
         <source>This property holds the expected duration of the effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>此属性为预期的振动持续时间。</translation>
     </message>
     <message>
         <source>This property defines the total duration of the feedback effect, in milliseconds. It includes the duration of any fade-in or fade-out parts, if any, in non-periodic effects, and includes all repetitions of the period in periodic-effects, if any.</source>
-        <translation type="unfinished"></translation>
+        <translation>此属性定义振动反馈的总持续时间（以毫秒为单位）。 它包括非周期性振动中任何淡入或淡出部分的持续时间（如果有的话），并包括周期性振动中所有周期的重复（如果有的话）。</translation>
     </message>
     <message>
         <source>If the duration is set to a value less than &lt;b&gt;attackTime + fadeTime&lt;/b&gt;, or less than the &lt;b&gt;period&lt;/b&gt; of the effect, the waveform which will result is backend-specific.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果持续时间设置为小于＆lt; b＆gt; 增高时间 +消失时间＆lt; / b＆gt;或小于＆lt; b＆gt;周期＆lt; / b＆gt;的值。 产生的波形振动图是特定于后端的。</translation>
     </message>
     <message>
         <source>Effect intensity</source>
-        <translation type="unfinished"></translation>
+        <translation>振动强度</translation>
     </message>
     <message>
         <source>This property holds the intensity of the effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>该属性为振动的强度。</translation>
     </message>
     <message>
         <source>This property defines the intensity of the feedback effect. The value can be between 0 and 1.</source>
-        <translation type="unfinished"></translation>
+        <translation>该属性确定振动反馈的强度，值介于 0 和 1 之间。</translation>
     </message>
     <message>
         <source>For non-periodic effects, the effect will be at this intensity for &lt;b&gt;(duration - (attackTime + fadeTime))&lt;/b&gt; milliseconds. For periodic effects, the effect will be at this intensity once per period for &lt;b&gt;(period - (attackTime + fadeTime))&lt;/b&gt; milliseconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>对于非周期性效果，效果将在此强度下为 ＆lt; b＆gt;（持续时间 - （增高时间 + 淡出时间））＆lt; / b＆gt;毫秒。 对于周期性振动，对于 ＆lt; b＆gt;（周期 - （增高时间 + 淡出时间））＆lt; / b＆gt;，每个周期的振动将是该强度。毫秒。</translation>
     </message>
     <message>
         <source>Effect attackTime</source>
-        <translation type="unfinished"></translation>
+        <translation>振动增高时间</translation>
     </message>
     <message>
         <source>This property holds the duration of the fade-in effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>此属性为淡入效果的持续时间。</translation>
     </message>
     <message>
         <source>This property defines the duration of the fade-in effect in milliseconds. The effect will ramp up (or down) from &lt;b&gt;attackIntensity&lt;/b&gt; to &lt;b&gt;intensity&lt;/b&gt; in &lt;b&gt;attackTime&lt;/b&gt; milliseconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>此属性定义淡入效果的持续时间（以毫秒为单位）。 振动将从＆lt; b＆gt; 增高强度＆lt; / b＆gt;上升（或下降）。 至＆lt; b＆gt;强度＆lt; / b＆gt; 在＆lt; b＆gt; 增高时间＆lt; / b＆gt;中毫秒。</translation>
     </message>
     <message>
         <source>If the attack time is set to a value such that &lt;b&gt;attackTime + fadeTime&lt;/b&gt; is greater than &lt;b&gt;duration&lt;/b&gt; for non-periodic effects, or greater than &lt;b&gt;period&lt;/b&gt; for periodic effects, the waveform which will result is backend-specific.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果将增高时间设置某个值例如＆lt; b＆gt; 增高时间 + 淡出时间＆lt; / b＆gt;的值。 大于＆lt; b＆gt;持续时间＆lt; / b＆gt; 对于非周期性振动，或大于＆lt; b＆gt;周期＆lt; / b＆gt; 对于周期性振动，产生的波形是后端特定的。</translation>
     </message>
     <message>
         <source>Effect attackIntensity</source>
-        <translation type="unfinished"></translation>
+        <translation>振动增高强度</translation>
     </message>
     <message>
         <source>This property holds the initial intensity of the effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>该属性为振动的初始强度。</translation>
     </message>
     <message>
         <source>This property defines the initial intensity of the effect, before it fades in. It is usually lower than intensity. The effect will ramp up (or down) from &lt;b&gt;attackIntensity&lt;/b&gt; to &lt;b&gt;intensity&lt;/b&gt; in &lt;b&gt;attackTime&lt;/b&gt; milliseconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>此属性定义振动的初始强度，在其消失之前。它通常低于强度。 效果将从＆lt; b＆gt; 增高强度＆lt; / b＆gt;上升（或下降）。 至 ＆lt; b＆gt;强度 ＆lt; / b＆gt; 在 ＆lt; b＆gt; 增高时间＆lt; / b＆gt;中毫秒。</translation>
     </message>
     <message>
         <source>Effect fadeTime</source>
-        <translation type="unfinished"></translation>
+        <translation>振动淡出时间</translation>
     </message>
     <message>
         <source>This property holds the duration of the fade-out effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>该值为振动淡出持续时间。</translation>
     </message>
     <message>
         <source>This property defines the duration of the fade-out effect in milliseconds. The effect will ramp down (or up) from &lt;b&gt;intensity&lt;/b&gt; to &lt;b&gt;fadeIntensity&lt;/b&gt; in &lt;b&gt;fadeTime&lt;/b&gt; milliseconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>此属性自定义振动淡出的持续时间（以毫秒为单位）。 效果将从＆lt; b＆gt;强度＆lt; / b＆gt;下降（或上升）。 到＆lt; b＆gt; 淡出强度＆lt; / b＆gt; in＆lt; b＆gt;淡出时间＆lt; / b＆gt;毫秒。</translation>
     </message>
     <message>
         <source>If the fade time is set to a value such that &lt;b&gt;attackTime + fadeTime&lt;/b&gt; is greater than &lt;b&gt;duration&lt;/b&gt; for non-periodic effects, or greater than &lt;b&gt;period&lt;/b&gt; for periodic effects, the waveform which will result is backend-specific.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果将淡入淡出时间设置为＆lt; b＆gt; 增高时间 + 淡出时间＆lt; / b＆gt;的值。 大于＆lt; b＆gt;持续时间＆lt; / b＆gt; 对于非周期性振动，或大于＆lt; b＆gt;周期＆lt; / b＆gt; 对于周期性振动，产生的波形是后端特定的。</translation>
     </message>
     <message>
         <source>Effect fadeIntensity</source>
-        <translation type="unfinished"></translation>
+        <translation>振动消失强度：</translation>
     </message>
     <message>
         <source>This property holds the final intensity of the effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>该属性为振动最终强度。</translation>
     </message>
     <message>
         <source>This property defines the final intensity of the effect, after it fades out. It is usually lower than intensity. The effect will ramp down (or up) from &lt;b&gt;intensity&lt;/b&gt; to &lt;b&gt;fadeIntensity&lt;/b&gt; in &lt;b&gt;fadeTime&lt;/b&gt; milliseconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>此属性定义振动最终强度，在淡出后。 它通常低于强度。 效果将从＆lt; b＆gt;强度＆lt; / b＆gt;下降（或上升）。 到＆lt; b＆gt; 淡出强度＆lt; / b＆gt; in＆lt; b＆gt; 淡出时间＆lt; / b＆gt;毫秒。</translation>
     </message>
     <message>
         <source>Effect period</source>
-        <translation type="unfinished"></translation>
+        <translation>振动周期</translation>
     </message>
     <message>
         <source>This property holds set the period for the effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>此属性为设置振动的周期。</translation>
     </message>
     <message>
         <source>It has a default value of -1, which means that it is not a periodic effect. You can only change the period when the effect is stopped. The duration of the effect should be set to a value larger than the period of the effect if you wish the periodicity to be discernable. Note: Not all actuators support periodic effects.</source>
-        <translation type="unfinished"></translation>
+        <translation>默认值为-1，这意味着它不是周期性振动。 你只能更改振动停止的时间段。 如果你希望可以识别出周期，则振动的持续时间应设置为大于振动周期的值。 注意：并非所有执行器都支持周期性效果</translation>
     </message>
     <message>
         <source>If the &lt;b&gt;period&lt;/b&gt; is set to a value which is less than &lt;b&gt;attackTime + fadeTime&lt;/b&gt;, the waveform which will result is backend-specific.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果＆lt; b＆gt;时段＆lt; / b＆gt; 如果设置为小于＆lt; b＆gt; 增高时间 + 淡出时间＆lt; / b＆gt;的值，则将产生的波形是特定于后端的。</translation>
     </message>
     <message>
         <source>The period defines the total length of the periodic envelope, which will be repeated up until &lt;b&gt;duration&lt;/b&gt; milliseconds has elapsed. For a periodic effect, the intensity will start at &lt;b&gt;attackIntensity&lt;/font&gt;, ramp to &lt;b&gt;intensity&lt;/b&gt; (where it stays for &lt;b&gt;(period - (attackTime + fadeTime))&lt;/b&gt; milliseconds), then ramp to &lt;b&gt;fadeIntensity&lt;/b&gt;. This waveform will be repeated as many times as required until the &lt;b&gt;duration&lt;/b&gt; has elapsed.</source>
-        <translation type="unfinished"></translation>
+        <translation>该周期定义周期性包络的总长度，其将重复直到＆lt; b＆gt;持续时间＆lt; / b＆gt; 毫秒已经过去。 对于周期性效果，强度将从＆lt; b＆gt; attackIntensity＆lt; / font＆gt;开始，增加到＆lt; b＆gt;强度＆lt; / b＆gt; （其中它保持＆lt; b＆gt;（句号 - （attackTime + fadeTime））＆lt; / b＆gt;毫秒），然后增加到＆lt; b＆gt; 淡出强度＆lt; / b＆gt;。 该波形将根据需要重复多次，直到＆lt; b＆gt;持续时间＆lt; / b＆gt; 已经过去了。</translation>
     </message>
 </context>
 <context>
     <name>Help_Theme_effects</name>
     <message>
         <source>Help Theme effects</source>
-        <translation type="unfinished"></translation>
+        <translation>帮助主题效果。</translation>
     </message>
     <message>
         <source>Button, KeyPad, Long</source>
-        <translation type="unfinished"></translation>
+        <translation>按钮，键盘，长按</translation>
     </message>
     <message>
         <source>Effects determined by the current Theme (system settings).</source>
-        <translation type="unfinished"></translation>
+        <translation>效果由当前主题（系统设置）确定。</translation>
     </message>
     <message>
         <source>Periodic</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Effects values used</source>
-        <translation type="unfinished"></translation>
+        <translation>周期</translation>
     </message>
     <message>
         <source>intensity: 0.9</source>
-        <translation type="unfinished"></translation>
+        <translation>强度：0.9</translation>
     </message>
     <message>
         <source>duration: 2000</source>
-        <translation type="unfinished"></translation>
+        <translation>持续时间:2000</translation>
     </message>
     <message>
         <source>attackTime: 500</source>
-        <translation type="unfinished"></translation>
+        <translation>增高时间：500</translation>
     </message>
     <message>
         <source>fadeTime: 1000</source>
-        <translation type="unfinished"></translation>
+        <translation>淡出时间：1000</translation>
     </message>
     <message>
         <source>attackIntensity: 0.5</source>
-        <translation type="unfinished"></translation>
+        <translation>增高强度：0.5</translation>
     </message>
     <message>
         <source>fadeIntensity: 0.1</source>
-        <translation type="unfinished"></translation>
+        <translation>淡出强度；0.1</translation>
     </message>
     <message>
         <source>period: 20</source>
-        <translation type="unfinished"></translation>
+        <translation>周期: 20</translation>
+    </message>
+    <message>
+        <source>Effects values used:</source>
+        <translation>使用效果值:</translation>
     </message>
 </context>
 <context>
     <name>SecondPage</name>
     <message>
         <source>About VibrationTest</source>
-        <translation type="unfinished"></translation>
+        <translation>关于振动测试</translation>
     </message>
     <message>
         <source>VibrationTest</source>
-        <translation type="unfinished">振动测试</translation>
+        <translation>振动测试</translation>
     </message>
     <message>
         <source>Version 1.3</source>
-        <translation type="unfinished"></translation>
+        <translation>版本 1.3</translation>
     </message>
     <message>
         <source>Recent changes:</source>
-        <translation type="unfinished"></translation>
+        <translation>最新修改：</translation>
     </message>
     <message>
         <source>version 1.0.1 - minor changes;</source>
-        <translation type="unfinished"></translation>
+        <translation>版本 1.0.1 - 微小改动;</translation>
     </message>
     <message>
         <source>version 1.1 - the help added; errors fixed;</source>
-        <translation type="unfinished"></translation>
+        <translation>版本 1.1 - 加入帮助;修复错误;</translation>
     </message>
     <message>
         <source>version 1.1.1 - the help changed; minor changes;</source>
-        <translation type="unfinished"></translation>
+        <translation>版本 1.1.1 - 更改帮助; 微小改动;</translation>
     </message>
     <message>
         <source>version 1.2 - &quot;Repeat&quot; added;</source>
-        <translation type="unfinished"></translation>
+        <translation>版本 1.2 - &quot;重复&quot; 添加;</translation>
     </message>
     <message>
         <source>version 1.2.1 - errors fixed;</source>
-        <translation type="unfinished"></translation>
+        <translation>版本 1.2.1 - 修复错误;</translation>
     </message>
     <message>
         <source>version 1.2.2 - minor changes;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>version 1.3 - Russian translations added;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>version 1.4 - French translations added (Thanks to Quenty31);</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>version 1.5 - Simplified Chinese translations added (Thanks to dashinfantry).</source>
-        <translation type="unfinished"></translation>
+        <translation>版本 1.2.2 - 微小改动;</translation>
     </message>
     <message>
         <source>Application to test the vibration of the device.</source>
-        <translation type="unfinished"></translation>
+        <translation>测试设备振动效果的软件。;</translation>
+    </message>
+    <message>
+        <source>version 1.3 - Russian translations added; Simplified Chinese translations added (Thanks to dashinfantry).</source>
+        <translation>版本 1.3 - 俄语翻译补充; 添加了简体中文翻译 （感谢dashinfantry）</translation>
+    </message>
+    <message>
+        <source>Translations:</source>
+        <translation>翻译:</translation>
+    </message>
+    <message>
+        <source>Simplified Chinese:</source>
+        <translation>简体中文:</translation>
     </message>
 </context>
 </TS>

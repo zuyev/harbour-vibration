@@ -112,6 +112,39 @@ Page {
             }
 
             Label {
+                text: qsTr("Translations:")
+                font.pixelSize: Theme.fontSizeMedium *7/8
+                color: Theme.highlightColor
+                x: Theme.horizontalPageMargin
+                wrapMode: Text.Wrap
+                width: parent.width - Theme.horizontalPageMargin *2
+//                anchors.horizontalCenter: parent.horizontalCenter
+            }
+
+        Repeater {
+        model: [
+                qsTr("Simplified Chinese:") + " dashinfantry",
+//                qsTr("Russian:") + " zuyev",
+               ]
+                Label {
+                    text: modelData
+                    font.pixelSize: Theme.fontSizeMedium *4/5
+                    x: Theme.horizontalPageMargin
+                    wrapMode: Text.Wrap
+                    width: parent.width - Theme.horizontalPageMargin *2
+                    horizontalAlignment: TextEdit.AlignJustify
+                  }
+                }
+
+        Label {
+            text: ""
+            font.pixelSize: Theme.fontSizeMedium /10
+            x: Theme.horizontalPageMargin
+            wrapMode: Text.Wrap
+            width: parent.width - Theme.horizontalPageMargin *2
+        }
+
+            Label {
                 text: qsTr("Recent changes:")
                 font.pixelSize: Theme.fontSizeMedium *7/8
                 color: Theme.highlightColor
@@ -129,9 +162,8 @@ Page {
                 qsTr("version 1.2 - \"Repeat\" added;"),
                 qsTr("version 1.2.1 - errors fixed;"),
                 qsTr("version 1.2.2 - minor changes;"),
-                qsTr("version 1.3 - Russian translations added;"),
-                qsTr("version 1.4 - French translations added (Thanks to Quenty31);"),
-                qsTr("version 1.5 - Simplified Chinese translations added (Thanks to dashinfantry)."),
+                qsTr("version 1.3 - Russian translations added; Simplified Chinese translations added (Thanks to dashinfantry)."),
+//                qsTr("version 1.4 - French translations added (Thanks to Quenty31)."),
                ]
                 Label {
                     text: modelData
