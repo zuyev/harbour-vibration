@@ -40,7 +40,7 @@
     </message>
     <message>
         <source>Long</source>
-        <translation>长按</translation>
+        <translation>长</translation>
     </message>
     <message>
         <source>Keypad</source>
@@ -410,10 +410,6 @@
         <translation>振动测试</translation>
     </message>
     <message>
-        <source>Version 1.3</source>
-        <translation>版本 1.3</translation>
-    </message>
-    <message>
         <source>Recent changes:</source>
         <translation>最新修改：</translation>
     </message>
@@ -446,16 +442,24 @@
         <translation>测试设备振动效果的软件。</translation>
     </message>
     <message>
-        <source>version 1.3 - Russian translations added; Simplified Chinese translations added (Thanks to dashinfantry).</source>
-        <translation>版本 1.3 - 俄语翻译补充; 添加了简体中文翻译 （感谢dashinfantry）</translation>
-    </message>
-    <message>
         <source>Translations:</source>
         <translation>翻译:</translation>
     </message>
     <message>
         <source>Simplified Chinese:</source>
         <translation>简体中文:</translation>
+    </message>
+    <message>
+        <source>Version 1.3.1</source>
+        <translation>版本 1.3.1</translation>
+    </message>
+    <message>
+        <source>version 1.3.1 - Simplified Chinese translations updated.</source>
+        <translation>版本 1.3.1 - 简体中文翻译已更新。</translation>
+    </message>
+    <message>
+        <source>version 1.3 - Russian translations added; Simplified Chinese translations added (Thanks to dashinfantry);</source>
+        <translation>版本 1.3 - 俄语翻译补充; 添加了简体中文翻译 （感谢dashinfantry）;</translation>
     </message>
 </context>
 </TS>

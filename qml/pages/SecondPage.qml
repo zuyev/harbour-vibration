@@ -79,7 +79,7 @@ Page {
             }
 
             Label {
-                text: qsTr("Version 1.3")
+                text: qsTr("Version 1.3.1")
                 font.pixelSize: Theme.fontSizeMedium *7/8
                 wrapMode: Text.Wrap
                 anchors.horizontalCenter: parent.horizontalCenter
@@ -162,8 +162,8 @@ Page {
                 qsTr("version 1.2 - \"Repeat\" added;"),
                 qsTr("version 1.2.1 - errors fixed;"),
                 qsTr("version 1.2.2 - minor changes;"),
-                qsTr("version 1.3 - Russian translations added; Simplified Chinese translations added (Thanks to dashinfantry)."),
-//                qsTr("version 1.4 - French translations added (Thanks to Quenty31)."),
+                qsTr("version 1.3 - Russian translations added; Simplified Chinese translations added (Thanks to dashinfantry);"),
+                qsTr("version 1.3.1 - Simplified Chinese translations updated."),
                ]
                 Label {
                     text: modelData

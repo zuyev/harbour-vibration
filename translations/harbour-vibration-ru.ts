@@ -410,10 +410,6 @@
         <translation>Тест вибрации</translation>
     </message>
     <message>
-        <source>Version 1.3</source>
-        <translation>Версия 1.3</translation>
-    </message>
-    <message>
         <source>Recent changes:</source>
         <translation>История изменений:</translation>
     </message>
@@ -446,16 +442,24 @@
         <translation>Приложение для тестирования вибрации устройства.</translation>
     </message>
     <message>
-        <source>version 1.3 - Russian translations added; Simplified Chinese translations added (Thanks to dashinfantry).</source>
-        <translation>версия 1.3 - добавлен перевод на русский язык; добавлен перевод на китайский (упрощенный) язык (спасибо dashinfantry).</translation>
-    </message>
-    <message>
         <source>Translations:</source>
         <translation>Переводы:</translation>
     </message>
     <message>
         <source>Simplified Chinese:</source>
         <translation>упрощенный китайский:</translation>
+    </message>
+    <message>
+        <source>Version 1.3.1</source>
+        <translation>Версия 1.3.1</translation>
+    </message>
+    <message>
+        <source>version 1.3.1 - Simplified Chinese translations updated.</source>
+        <translation>версия 1.3.1 - обновлен перевод на китайский (упрощенный) язык.</translation>
+    </message>
+    <message>
+        <source>version 1.3 - Russian translations added; Simplified Chinese translations added (Thanks to dashinfantry);</source>
+        <translation>версия 1.3 - добавлен перевод на русский язык; добавлен перевод на китайский (упрощенный) язык (спасибо dashinfantry);</translation>
     </message>
 </context>
 </TS>

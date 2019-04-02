@@ -410,10 +410,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Version 1.3</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Recent changes:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -446,15 +442,23 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>version 1.3 - Russian translations added; Simplified Chinese translations added (Thanks to dashinfantry).</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Translations:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Simplified Chinese:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Version 1.3.1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>version 1.3.1 - Simplified Chinese translations updated.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>version 1.3 - Russian translations added; Simplified Chinese translations added (Thanks to dashinfantry);</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
