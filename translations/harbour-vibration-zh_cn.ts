@@ -119,7 +119,7 @@
     </message>
     <message>
         <source>Long</source>
-        <translation>长按</translation>
+        <translation>长</translation>
     </message>
     <message>
         <source>Keypad</source>
@@ -203,7 +203,7 @@
     </message>
     <message>
         <source>onReleased</source>
-        <translation>当按下</translation>
+        <translation>当释放</translation>
     </message>
     <message>
         <source>onClicked</source>
@@ -443,7 +443,7 @@
     </message>
     <message>
         <source>Application to test the vibration of the device.</source>
-        <translation>测试设备振动效果的软件。;</translation>
+        <translation>测试设备振动效果的软件。</translation>
     </message>
     <message>
         <source>version 1.3 - Russian translations added; Simplified Chinese translations added (Thanks to dashinfantry).</source>
