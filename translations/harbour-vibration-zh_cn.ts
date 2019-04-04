@@ -127,7 +127,7 @@
     </message>
     <message>
         <source>Periodic</source>
-        <translation>定期</translation>
+        <translation>周期</translation>
     </message>
     <message>
         <source>Custom effects</source>
@@ -253,7 +253,7 @@
     </message>
     <message>
         <source>If the duration is set to a value less than &lt;b&gt;attackTime + fadeTime&lt;/b&gt;, or less than the &lt;b&gt;period&lt;/b&gt; of the effect, the waveform which will result is backend-specific.</source>
-        <translation>如果持续时间设置为小于＆lt; b＆gt; 增高时间 +消失时间＆lt; / b＆gt;或小于＆lt; b＆gt;周期＆lt; / b＆gt;的值。 产生的波形振动图是特定于后端的。</translation>
+        <translation> 如果设定的周期值小于增高时间+消失时间或小于振动周期，则产生的波形振动图是特定于后端的。</translation>
     </message>
     <message>
         <source>Effect intensity</source>
@@ -269,7 +269,7 @@
     </message>
     <message>
         <source>For non-periodic effects, the effect will be at this intensity for &lt;b&gt;(duration - (attackTime + fadeTime))&lt;/b&gt; milliseconds. For periodic effects, the effect will be at this intensity once per period for &lt;b&gt;(period - (attackTime + fadeTime))&lt;/b&gt; milliseconds.</source>
-        <translation>对于非周期性效果，效果将在此强度下为 ＆lt; b＆gt;（持续时间 - （增高时间 + 淡出时间））＆lt; / b＆gt;毫秒。 对于周期性振动，对于 ＆lt; b＆gt;（周期 - （增高时间 + 淡出时间））＆lt; / b＆gt;，每个周期的振动将是该强度。毫秒。</translation>
+        <translation>对于非周期性振动，效果将在此强度下为（持续时间 - （增高时间 + 淡出时间））毫秒。 对于周期性振动，则为每周期一次（周期 - （增高时间 + 淡出时间）毫秒。</translation>
     </message>
     <message>
         <source>Effect attackTime</source>
@@ -281,11 +281,11 @@
     </message>
     <message>
         <source>This property defines the duration of the fade-in effect in milliseconds. The effect will ramp up (or down) from &lt;b&gt;attackIntensity&lt;/b&gt; to &lt;b&gt;intensity&lt;/b&gt; in &lt;b&gt;attackTime&lt;/b&gt; milliseconds.</source>
-        <translation>此属性定义淡入效果的持续时间（以毫秒为单位）。 振动将从＆lt; b＆gt; 增高强度＆lt; / b＆gt;上升（或下降）。 至＆lt; b＆gt;强度＆lt; / b＆gt; 在＆lt; b＆gt; 增高时间＆lt; / b＆gt;中毫秒。</translation>
+        <translation>此属性定义淡入效果的持续时间（以毫秒为单位）。 振动将从增高强度到强度之间以毫秒为单位起伏变化。</translation>
     </message>
     <message>
         <source>If the attack time is set to a value such that &lt;b&gt;attackTime + fadeTime&lt;/b&gt; is greater than &lt;b&gt;duration&lt;/b&gt; for non-periodic effects, or greater than &lt;b&gt;period&lt;/b&gt; for periodic effects, the waveform which will result is backend-specific.</source>
-        <translation>如果将增高时间设置某个值例如＆lt; b＆gt; 增高时间 + 淡出时间＆lt; / b＆gt;的值。 大于＆lt; b＆gt;持续时间＆lt; / b＆gt; 对于非周期性振动，或大于＆lt; b＆gt;周期＆lt; / b＆gt; 对于周期性振动，产生的波形是后端特定的。</translation>
+        <translation>如果将增高时间设定为某个值，例如增高时间 + 淡出时间， 大于非周期振动持续时间，或超过周期性振动的周期，则产生的波形是后端特定的。</translation>
     </message>
     <message>
         <source>Effect attackIntensity</source>
@@ -297,7 +297,7 @@
     </message>
     <message>
         <source>This property defines the initial intensity of the effect, before it fades in. It is usually lower than intensity. The effect will ramp up (or down) from &lt;b&gt;attackIntensity&lt;/b&gt; to &lt;b&gt;intensity&lt;/b&gt; in &lt;b&gt;attackTime&lt;/b&gt; milliseconds.</source>
-        <translation>此属性定义振动的初始强度，在其消失之前。它通常低于强度。 效果将从＆lt; b＆gt; 增高强度＆lt; / b＆gt;上升（或下降）。 至 ＆lt; b＆gt;强度 ＆lt; / b＆gt; 在 ＆lt; b＆gt; 增高时间＆lt; / b＆gt;中毫秒。</translation>
+        <translation>此属性定义振动的初始强度，在其消失之前。它通常低于强度。振动将从增高强度到强度之间以毫秒为单位起伏变化。 </translation>
     </message>
     <message>
         <source>Effect fadeTime</source>
@@ -309,11 +309,11 @@
     </message>
     <message>
         <source>This property defines the duration of the fade-out effect in milliseconds. The effect will ramp down (or up) from &lt;b&gt;intensity&lt;/b&gt; to &lt;b&gt;fadeIntensity&lt;/b&gt; in &lt;b&gt;fadeTime&lt;/b&gt; milliseconds.</source>
-        <translation>此属性自定义振动淡出的持续时间（以毫秒为单位）。 效果将从＆lt; b＆gt;强度＆lt; / b＆gt;下降（或上升）。 到＆lt; b＆gt; 淡出强度＆lt; / b＆gt; in＆lt; b＆gt;淡出时间＆lt; / b＆gt;毫秒。</translation>
+        <translation>此属性自定义振动淡出的持续时间（以毫秒为单位）。振动将从增高强度到强度之间以毫秒为单位起伏变化。 </translation>
     </message>
     <message>
         <source>If the fade time is set to a value such that &lt;b&gt;attackTime + fadeTime&lt;/b&gt; is greater than &lt;b&gt;duration&lt;/b&gt; for non-periodic effects, or greater than &lt;b&gt;period&lt;/b&gt; for periodic effects, the waveform which will result is backend-specific.</source>
-        <translation>如果将淡入淡出时间设置为＆lt; b＆gt; 增高时间 + 淡出时间＆lt; / b＆gt;的值。 大于＆lt; b＆gt;持续时间＆lt; / b＆gt; 对于非周期性振动，或大于＆lt; b＆gt;周期＆lt; / b＆gt; 对于周期性振动，产生的波形是后端特定的。</translation>
+        <translation>如果淡入时间设定为某个值，例如增高时间 + 淡出时间，超过非周期性振动的的持续时间或周期性振动的周期，则产生的波形是后端特定的。</translation>
     </message>
     <message>
         <source>Effect fadeIntensity</source>
@@ -325,7 +325,7 @@
     </message>
     <message>
         <source>This property defines the final intensity of the effect, after it fades out. It is usually lower than intensity. The effect will ramp down (or up) from &lt;b&gt;intensity&lt;/b&gt; to &lt;b&gt;fadeIntensity&lt;/b&gt; in &lt;b&gt;fadeTime&lt;/b&gt; milliseconds.</source>
-        <translation>此属性定义振动最终强度，在淡出后。 它通常低于强度。 效果将从＆lt; b＆gt;强度＆lt; / b＆gt;下降（或上升）。 到＆lt; b＆gt; 淡出强度＆lt; / b＆gt; in＆lt; b＆gt; 淡出时间＆lt; / b＆gt;毫秒。</translation>
+        <translation>此属性定义振动最终强度，在淡出后。 它通常低于强度。 效果将从强度到淡出强度之间以毫秒为单位起伏变化。</translation>
     </message>
     <message>
         <source>Effect period</source>
@@ -341,11 +341,12 @@
     </message>
     <message>
         <source>If the &lt;b&gt;period&lt;/b&gt; is set to a value which is less than &lt;b&gt;attackTime + fadeTime&lt;/b&gt;, the waveform which will result is backend-specific.</source>
-        <translation>如果＆lt; b＆gt;时段＆lt; / b＆gt; 如果设置为小于＆lt; b＆gt; 增高时间 + 淡出时间＆lt; / b＆gt;的值，则将产生的波形是特定于后端的。</translation>
+        <translation>如果周期设定为某个值，小于增高时间+消失时间，则将产生的波形是特定于后端的。</translation>
     </message>
     <message>
         <source>The period defines the total length of the periodic envelope, which will be repeated up until &lt;b&gt;duration&lt;/b&gt; milliseconds has elapsed. For a periodic effect, the intensity will start at &lt;b&gt;attackIntensity&lt;/font&gt;, ramp to &lt;b&gt;intensity&lt;/b&gt; (where it stays for &lt;b&gt;(period - (attackTime + fadeTime))&lt;/b&gt; milliseconds), then ramp to &lt;b&gt;fadeIntensity&lt;/b&gt;. This waveform will be repeated as many times as required until the &lt;b&gt;duration&lt;/b&gt; has elapsed.</source>
-        <translation>该周期定义周期性包络的总长度，其将重复直到＆lt; b＆gt;持续时间＆lt; / b＆gt; 毫秒已经过去。 对于周期性效果，强度将从＆lt; b＆gt; attackIntensity＆lt; / font＆gt;开始，增加到＆lt; b＆gt;强度＆lt; / b＆gt; （其中它保持＆lt; b＆gt;（句号 - （attackTime + fadeTime））＆lt; / b＆gt;毫秒），然后增加到＆lt; b＆gt; 淡出强度＆lt; / b＆gt;。 该波形将根据需要重复多次，直到＆lt; b＆gt;持续时间＆lt; / b＆gt; 已经过去了。</translation>
+        <translation>该周期定义周期性包络的总长度，其将重复直到以毫秒为单位的持续时间已经过去。 对于周期性效果，强度将从增高强度开始，变化到强度（周期-（怎搞实践+消失时间，以毫秒为单位），波段将重复出现直到持续时间过去。
+        </translation>
     </message>
 </context>
 <context>
@@ -455,11 +456,11 @@
     </message>
     <message>
         <source>version 1.3.1 - Simplified Chinese translations updated.</source>
-        <translation>版本 1.3.1 - 简体中文翻译已更新。</translation>
+        <translation>版本 1.3.1 - 更新了简体中文翻译。</translation>
     </message>
     <message>
         <source>version 1.3 - Russian translations added; Simplified Chinese translations added (Thanks to dashinfantry);</source>
-        <translation>版本 1.3 - 俄语翻译补充; 添加了简体中文翻译 （感谢dashinfantry）;</translation>
+        <translation>版本 1.3 - 添加了俄语翻译及简体中文翻译 （感谢dashinfantry）;</translation>
     </message>
 </context>
 </TS>
